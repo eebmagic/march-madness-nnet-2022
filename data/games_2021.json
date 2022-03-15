@@ -1,0 +1,324 @@
+[
+    {
+        "division": "west",
+        "round": "first",
+        "games": [
+            {
+                "teamA": {
+                    "name": "Gonzaga",
+                    "points": 98
+                },
+                "teamB": {
+                    "name": "Norfolk State",
+                    "points": 55 
+                }
+            },
+            {
+                    "teamA": {
+                    "name": "Oklahoma",
+                    "points": 72
+                },
+                "teamB": {
+                    "name": "Missouri",
+                    "points": 68 
+                }
+            },
+            {
+                    "teamA": {
+                    "name": "Creighton",
+                    "points": 63
+                },
+                "teamB": {
+                    "name": "UC Santa Barbara",
+                    "points": 62 
+                }
+            },
+            {
+                    "teamA": {
+                    "name": "Ohio",
+                    "points": 62
+                },
+                "teamB": {
+                    "name": "Virginia",
+                    "points": 58  
+                }
+            },
+            {
+                    "teamA": {
+                    "name": "USC",
+                    "points": 72
+                },
+                "teamB": {
+                    "name": "Drake",
+                    "points": 56 
+                }
+            },
+            {
+                    "teamA": {
+                    "name": "Kansas",
+                    "points": 93
+                },
+                "teamB": {
+                    "name": "Eastern Washington",
+                    "points": 84 
+                }
+            },
+            {
+                "teamA": {
+                    "name": "Iowa",
+                    "points": 86
+                },
+                "teamB": {
+                    "name": "Grand Canyon",
+                    "points": 74 
+                }
+            }
+        ]
+    },
+    {
+        "division": "west",
+        "round": "second",
+        "games": [
+            {
+                "teamA": {
+                    "name": "Gonzaga",
+                    "points": 87
+                },
+                "teamB": {
+                    "name": "Oklahoma",
+                    "points": 71
+                }
+            },
+            {
+                "teamA": {
+                    "name": "Creighton",
+                    "points": 72
+                },
+                "teamB": {
+                    "name": "Ohio",
+                    "points": 58
+                }
+            },
+            {
+                "teamA": {
+                    "name": "USC",
+                    "points": 85
+                },
+                "teamB": {
+                    "name": "Kansas",
+                    "points": 51
+                }
+            },
+            {
+                "teamA": {
+                    "name": "Oregon",
+                    "points": 95
+                },
+                "teamB": {
+                    "name": "Iowa",
+                    "points": 80
+                }
+            }
+        ]
+    },
+    {
+        "division": "west",
+        "round": "sweet 16",
+        "games": [
+            {
+                "teamA": {
+                    "name": "Creighton",
+                    "points": 65
+                },
+                "teamB": {
+                    "name": "Gonzaga",
+                    "points": 83
+                }
+            },
+            {
+                "teamA": {
+                    "name": "USC",
+                    "points": 82
+                },
+                "teamB": {
+                    "name": "Oregon",
+                    "points": 68
+                }
+            },
+        ]
+    },
+    {
+        "division": "west",
+        "round": "elite 8",
+        "games": [
+            {
+                "teamA": {
+                    "name": "Gonzaga",
+                    "points": 85
+                },
+                "teamB": {
+                    "name": "USC",
+                    "points": 66
+                }
+            }
+        ]
+    },
+    {
+        "division": "east",
+        "round": "first",
+        "games": [
+            {
+                "teamA": {
+                    "name": "Michigan",
+                    "points": 82,
+                },
+                "teamB": {
+                    "name": "Texas Southern",
+                    "points": 66
+                }
+            },
+            {
+                "teamA": {
+                    "name": "LSU",
+                    "points": 76,
+                },
+                "teamB": {
+                    "name": "St. Bonaventure",
+                    "points": 61
+                }
+            },
+            {
+                "teamA": {
+                    "name": "Colorado",
+                    "points": 96,
+                },
+                "teamB": {
+                    "name": "Georgetown",
+                    "points": 73
+                }
+            },
+            {
+                "teamA": {
+                    "name": "Florida State",
+                    "points": 64,
+                },
+                "teamB": {
+                    "name": "UNC Greensboro",
+                    "points": 54
+                }
+            },
+            {
+                "teamA": {
+                    "name": "UCLA",
+                    "points": 73,
+                },
+                "teamB": {
+                    "name": "BYU",
+                    "points": 62
+                }
+            },
+            {
+                "teamA": {
+                    "name": "Abilene Christian",
+                    "points": 53,
+                },
+                "teamB": {
+                    "name": "Texas",
+                    "points": 52
+                }
+            },
+            {
+                "teamA": {
+                    "name": "Maryland",
+                    "points": 62,
+                },
+                "teamB": {
+                    "name": "UConn",
+                    "points": 54
+                }
+            },
+            {
+                "teamA": {
+                    "name": "Alabama",
+                    "points": 68,
+                },
+                "teamB": {
+                    "name": "Iona",
+                    "points": 55
+                }
+            },
+        ]
+    },
+    {
+        "division": "east",
+        "round": "second",
+        "games": [
+            {
+                "teamA": {
+                    "name": "Michigan",
+                    "points": 86
+                },
+                "teamB": {
+                    "name": "LSU",
+                    "points": 78
+                }
+            },
+            {
+                "teamA": {
+                    "name": "Florida State",
+                    "points": 71
+                },
+                "teamB": {
+                    "name": "Colorado",
+                    "points": 53
+                }
+            },
+            {
+                "teamA": {
+                    "name": "UCLA",
+                    "points": 67
+                },
+                "teamB": {
+                    "name": "Abilene Christian",
+                    "points": 47
+                }
+            },
+            {
+                "teamA": {
+                    "name": "Alabama",
+                    "points": 96
+                },
+                "teamB": {
+                    "name": "Maryland",
+                    "points": 77
+                }
+            }
+        ]
+    },
+    {
+        "division": "east",
+        "round": "sweet 16",
+        "games": [
+            {
+                "teamA": {
+                    "name": "Florida State", 
+                    "points": 58
+                },
+                "teamB": {
+                    "name": "Michigan",
+                    "points": 76
+                }
+            },
+            {
+                "teamA": {
+                    "name": "UCLA", 
+                    "points": 88
+                },
+                "teamB": {
+                    "name": "Alabama",
+                    "points": 78
+                }
+            }
+        ]
+    }
+]
