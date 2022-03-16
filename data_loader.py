@@ -13,6 +13,7 @@ regCompact = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MRegularS
 regDetailed = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MRegularSeasonDetailedResults.csv')
 seeds = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MNCAATourneySeeds.csv')
 ordData = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MMasseyOrdinals.csv')
+teamNames = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MTeams.csv')
 
 with open('valid_ordinals.json') as file:
     validOrdinals = json.load(file)
@@ -138,6 +139,11 @@ def getNormalizedRegularSeason(teamID, year):
     return regularNormalized[str(year)][str(teamID)]
 
 
+def getStartYear(teamID):
+    value = teamNames.query(f'TeamID == {teamID}').FirstD1Season.tolist()[0]
+    return value
+
+
 def getTrainingData(teamID, year, normalized=False):
     '''
     Should include:
@@ -157,18 +163,28 @@ def getTrainingData(teamID, year, normalized=False):
     seed = [getSeed(teamID, year)]
     rankings = getRankings(teamID, year)
     currCoachStats = getCoachStats(teamID, year)
-    regularStats = getNormalizedRegularSeason(teamID, year)
+    # regularStats = getNormalizedRegularSeason(teamID, year)
+    regularStats = getRegularSeason(teamID, year).tolist()
 
-    if str(teamID) in regularNormalized[str(year-1)]:
-        previousStats = getNormalizedRegularSeason(teamID, year-1)
+    startYear = getStartYear(teamID)
+    # if str(teamID) in regularNormalized[str(year-1)]:
+    if startYear <= year - 1:
+        # previousStats = getNormalizedRegularSeason(teamID, year-1)
+        previousStats = getRegularSeason(teamID, year-1).tolist()
     else:
-        previousStats = np.zeros(regularStats.shape)
+        print(f'ADJUSTING')
+        previousStats = np.zeros(len(regularStats)).tolist()
 
     # print(seed)
     # print(rankings)
     # print(currCoachStats)
     # print(regularStats)
     # print(previousStats)
+    # print(type(seed))
+    # print(type(rankings))
+    # print(type(currCoachStats))
+    # print(type(regularStats))
+    # print(type(previousStats))
 
     out = seed + rankings + currCoachStats + regularStats + previousStats
     return out
