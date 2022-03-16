@@ -73,9 +73,9 @@ def getFullData():
         xTwoOut = teamBTarget - teamATarget
 
         X.append(xOneIn)
-        y.append(xOneOut)
+        y.append(xOneOut > 0)
         X.append(xTwoIn)
-        y.append(xTwoOut)
+        y.append(xTwoOut > 0)
 
         # print(xOneIn)
         # print(xOneOut)
