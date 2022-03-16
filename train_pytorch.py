@@ -4,6 +4,9 @@ from sklearn.model_selection import train_test_split
 import numpy as np
 import json
 
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+print(f'Using device: {device}')
+
 def testAcc(a, b):
     similar = (a == b)
     # print(a[:10])
@@ -17,8 +20,8 @@ with open('training_data.json') as file:
     X, y = json.load(file)
     y = [1.0 if val else 0.0 for val in y]
     permutation = np.random.permutation(len(X))
-    X = torch.tensor(X)
-    y = torch.tensor(y)
+    X = torch.tensor(X).to(device)
+    y = torch.tensor(y).to(device)
     # TODO: Should this y be remapped from True/False => 1/0
     y = torch.reshape(y, (y.size()[0], 1))
     X = X[permutation]
@@ -34,6 +37,7 @@ with open('training_data.json') as file:
     # print(y)
     # print(featureSize)
     # print(outFeatureSize)
+
 
 class Network(nn.Module):
     def __init__(self):
@@ -62,7 +66,7 @@ class Network(nn.Module):
 # print(xx)
 
 # model = torch.nn.Linear(featureSize, outFeatureSize)
-model = Network()
+model = Network().to(device)
 
 loss_fn = torch.nn.L1Loss(reduction='sum')
 learning_rate = 1e-6
