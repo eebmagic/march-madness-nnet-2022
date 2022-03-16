@@ -22,7 +22,6 @@ with open('training_data.json') as file:
     permutation = np.random.permutation(len(X))
     X = torch.tensor(X).to(device)
     y = torch.tensor(y).to(device)
-    # TODO: Should this y be remapped from True/False => 1/0
     y = torch.reshape(y, (y.size()[0], 1))
     X = X[permutation]
     y = y[permutation]
@@ -30,7 +29,7 @@ with open('training_data.json') as file:
 
     featureSize = X.size()[-1]
     outFeatureSize = y.size()[-1]
-    hiddenLayerCount = featureSize // 2
+    hiddenLayerCount = featureSize * 2
     print('hiddenlayer count: ', hiddenLayerCount)
 
     # print(X)
@@ -68,20 +67,22 @@ class Network(nn.Module):
 # model = torch.nn.Linear(featureSize, outFeatureSize)
 model = Network().to(device)
 
-loss_fn = torch.nn.L1Loss(reduction='sum')
-learning_rate = 1e-6
+loss_fn = torch.nn.MSELoss(reduction='sum')
+learning_rate = 1e-8
 optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=0.9)
 
 losses = []
-for t in range(40_000):
+epochs = 600_000
+for t in range(epochs):
     # print(f'Running iter {t} ...')
 
     optimizer.zero_grad()
     y_pred = model(X_train)
+    # print(y_pred)
     loss = loss_fn(y_pred, y_train)
     # print(t, loss.item())
     if t % 100 == 0:
-        print(t, loss.item())
+        print(f'{t/epochs:.4f}', t, loss.item())
         losses.append(loss.item())
     loss.backward()
     optimizer.step()
