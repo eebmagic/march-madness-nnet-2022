@@ -5,8 +5,8 @@ import json
 Get all team ids for teams that play in any march madness tourney 2003-current
 '''
 
-tournCompact = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MNCAATourneyCompactResults.csv')
-teamNames = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MTeams.csv')
+tournCompact = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage2/MNCAATourneyCompactResults.csv')
+teamNames = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage2/MTeams.csv')
 
 years = tournCompact[tournCompact.Season >= 2003].Season.unique()
 # years = tournCompact[tournCompact.Season >= 2021].Season.unique()

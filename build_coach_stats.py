@@ -2,12 +2,14 @@ import pandas as pd
 import numpy as np
 import json
 
-coachData = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MTeamCoaches.csv')
-regCompact = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MRegularSeasonCompactResults.csv')
+coachData = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage2/MTeamCoaches.csv')
+regCompact = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage2/MRegularSeasonCompactResults.csv')
 
 with open('tourney_participant_team_ids.json') as file:
     tourneyYearIds = json.load(file)
     years = list(tourneyYearIds.keys())
+    if str(2022) not in years:
+        years.append(str(2022))
     allTeams = set()
     for year in tourneyYearIds:
         allTeams = allTeams.union(set(tourneyYearIds[year]))
@@ -102,6 +104,6 @@ def coachTeams():
         json.dump(allTeamYears, file)
 
 if __name__ == '__main__':
-    # coachCounts()
-    # coachStats()
-    # coachTeams()
+    coachCounts()
+    coachStats()
+    coachTeams()

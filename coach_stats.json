@@ -7,8 +7,8 @@
             "1441": 2019,
             "1457": 2022
         },
-        "totalWins": 44,
-        "totalGames": 105
+        "totalWins": 52,
+        "totalGames": 114
     },
     "greg_young":
     {
@@ -17,8 +17,8 @@
         {
             "1426": 2022
         },
-        "totalWins": 7,
-        "totalGames": 20
+        "totalWins": 9,
+        "totalGames": 27
     },
     "kevin_kruger":
     {
@@ -27,8 +27,8 @@
         {
             "1424": 2022
         },
-        "totalWins": 12,
-        "totalGames": 22
+        "totalWins": 17,
+        "totalGames": 31
     },
     "mark_adams":
     {
@@ -37,8 +37,8 @@
         {
             "1403": 2022
         },
-        "totalWins": 18,
-        "totalGames": 23
+        "totalWins": 25,
+        "totalGames": 34
     },
     "steve_lutz":
     {
@@ -47,8 +47,8 @@
         {
             "1394": 2022
         },
-        "totalWins": 12,
-        "totalGames": 19
+        "totalWins": 19,
+        "totalGames": 30
     },
     "darris_nichols":
     {
@@ -57,8 +57,8 @@
         {
             "1347": 2022
         },
-        "totalWins": 5,
-        "totalGames": 20
+        "totalWins": 9,
+        "totalGames": 27
     },
     "jase_coburn":
     {
@@ -67,8 +67,8 @@
         {
             "1340": 2022
         },
-        "totalWins": 6,
-        "totalGames": 19
+        "totalWins": 12,
+        "totalGames": 29
     },
     "micah_shrewsberry":
     {
@@ -77,8 +77,8 @@
         {
             "1336": 2022
         },
-        "totalWins": 9,
-        "totalGames": 19
+        "totalWins": 14,
+        "totalGames": 31
     },
     "hubert_davis":
     {
@@ -87,8 +87,8 @@
         {
             "1314": 2022
         },
-        "totalWins": 16,
-        "totalGames": 23
+        "totalWins": 24,
+        "totalGames": 33
     },
     "ben_johnson":
     {
@@ -98,8 +98,8 @@
             "1339": 2021,
             "1278": 2022
         },
-        "totalWins": 14,
-        "totalGames": 38
+        "totalWins": 16,
+        "totalGames": 48
     },
     "drew_valentine":
     {
@@ -108,8 +108,18 @@
         {
             "1260": 2022
         },
-        "totalWins": 17,
-        "totalGames": 21
+        "totalWins": 24,
+        "totalGames": 31
+    },
+    "mike_pegues":
+    {
+        "start": 2022,
+        "teamStarts":
+        {
+            "1257": 2022
+        },
+        "totalWins": 13,
+        "totalGames": 32
     },
     "matt_crenshaw":
     {
@@ -118,8 +128,8 @@
         {
             "1237": 2022
         },
-        "totalWins": 0,
-        "totalGames": 19
+        "totalWins": 1,
+        "totalGames": 27
     },
     "josh_schertz":
     {
@@ -128,8 +138,8 @@
         {
             "1232": 2022
         },
-        "totalWins": 6,
-        "totalGames": 19
+        "totalWins": 8,
+        "totalGames": 28
     },
     "mike_woodson":
     {
@@ -138,8 +148,8 @@
         {
             "1231": 2022
         },
-        "totalWins": 16,
-        "totalGames": 22
+        "totalWins": 20,
+        "totalGames": 33
     },
     "kim_english":
     {
@@ -148,8 +158,8 @@
         {
             "1206": 2022
         },
-        "totalWins": 11,
-        "totalGames": 21
+        "totalWins": 14,
+        "totalGames": 30
     },
     "desmond_oliver":
     {
@@ -158,8 +168,8 @@
         {
             "1190": 2022
         },
-        "totalWins": 11,
-        "totalGames": 24
+        "totalWins": 13,
+        "totalGames": 30
     },
     "david_riley":
     {
@@ -168,8 +178,8 @@
         {
             "1186": 2022
         },
-        "totalWins": 9,
-        "totalGames": 21
+        "totalWins": 16,
+        "totalGames": 31
     },
     "stan_waterman":
     {
@@ -179,7 +189,7 @@
             "1175": 2022
         },
         "totalWins": 0,
-        "totalGames": 16
+        "totalGames": 25
     },
     "patrick_sellers":
     {
@@ -188,8 +198,8 @@
         {
             "1148": 2022
         },
-        "totalWins": 6,
-        "totalGames": 24
+        "totalWins": 8,
+        "totalGames": 32
     },
     "levell_sanders":
     {
@@ -198,8 +208,8 @@
         {
             "1127": 2022
         },
-        "totalWins": 8,
-        "totalGames": 18
+        "totalWins": 10,
+        "totalGames": 27
     },
     "nate_james":
     {
@@ -208,8 +218,8 @@
         {
             "1122": 2022
         },
-        "totalWins": 5,
-        "totalGames": 19
+        "totalWins": 10,
+        "totalGames": 27
     },
     "solomon_bozeman":
     {
@@ -218,8 +228,8 @@
         {
             "1115": 2022
         },
-        "totalWins": 3,
-        "totalGames": 22
+        "totalWins": 5,
+        "totalGames": 29
     },
     "tommy_lloyd":
     {
@@ -228,8 +238,8 @@
         {
             "1112": 2022
         },
-        "totalWins": 20,
-        "totalGames": 22
+        "totalWins": 31,
+        "totalGames": 34
     },
     "dwayne_killings":
     {
@@ -238,8 +248,8 @@
         {
             "1107": 2022
         },
-        "totalWins": 10,
-        "totalGames": 23
+        "totalWins": 13,
+        "totalGames": 31
     },
     "brette_tanner":
     {
@@ -248,8 +258,8 @@
         {
             "1101": 2022
         },
-        "totalWins": 12,
-        "totalGames": 19
+        "totalWins": 19,
+        "totalGames": 29
     },
     "isaac_brown":
     {
@@ -258,8 +268,8 @@
         {
             "1455": 2021
         },
-        "totalWins": 26,
-        "totalGames": 39
+        "totalWins": 29,
+        "totalGames": 47
     },
     "will_ryan":
     {
@@ -268,8 +278,8 @@
         {
             "1453": 2021
         },
-        "totalWins": 11,
-        "totalGames": 46
+        "totalWins": 12,
+        "totalGames": 54
     },
     "clayton_bates":
     {
@@ -278,8 +288,8 @@
         {
             "1444": 2021
         },
-        "totalWins": 6,
-        "totalGames": 40
+        "totalWins": 10,
+        "totalGames": 48
     },
     "takayo_siddle":
     {
@@ -288,8 +298,8 @@
         {
             "1423": 2021
         },
-        "totalWins": 20,
-        "totalGames": 37
+        "totalWins": 27,
+        "totalGames": 46
     },
     "steve_smiley":
     {
@@ -298,8 +308,8 @@
         {
             "1294": 2021
         },
-        "totalWins": 18,
-        "totalGames": 39
+        "totalWins": 26,
+        "totalGames": 51
     },
     "mark_byington":
     {
@@ -309,8 +319,8 @@
             "1204": 2014,
             "1241": 2021
         },
-        "totalWins": 136,
-        "totalGames": 248
+        "totalWins": 138,
+        "totalGames": 255
     },
     "byron_rimm_ii":
     {
@@ -329,8 +339,8 @@
         {
             "1227": 2021
         },
-        "totalWins": 16,
-        "totalGames": 42
+        "totalWins": 22,
+        "totalGames": 51
     },
     "jason_shay":
     {
@@ -369,8 +379,8 @@
         {
             "1106": 2021
         },
-        "totalWins": 10,
-        "totalGames": 41
+        "totalWins": 13,
+        "totalGames": 48
     },
     "jay_mcauley":
     {
@@ -379,8 +389,8 @@
         {
             "1459": 2020
         },
-        "totalWins": 42,
-        "totalGames": 77
+        "totalWins": 47,
+        "totalGames": 85
     },
     "kyle_smith":
     {
@@ -391,8 +401,8 @@
             "1362": 2017,
             "1450": 2020
         },
-        "totalWins": 186,
-        "totalGames": 340
+        "totalWins": 191,
+        "totalGames": 352
     },
     "jerry_stackhouse":
     {
@@ -401,8 +411,8 @@
         {
             "1435": 2020
         },
-        "totalWins": 32,
-        "totalGames": 79
+        "totalWins": 37,
+        "totalGames": 90
     },
     "rob_burke":
     {
@@ -421,8 +431,8 @@
         {
             "1396": 2020
         },
-        "totalWins": 32,
-        "totalGames": 68
+        "totalWins": 36,
+        "totalGames": 76
     },
     "billy_lange":
     {
@@ -433,8 +443,8 @@
             "1389": 2020,
             "1386": 2021
         },
-        "totalWins": 119,
-        "totalGames": 271
+        "totalWins": 120,
+        "totalGames": 280
     },
     "carmen_maciariello":
     {
@@ -443,8 +453,8 @@
         {
             "1373": 2020
         },
-        "totalWins": 42,
-        "totalGames": 66
+        "totalWins": 47,
+        "totalGames": 76
     },
     "david_kiefer":
     {
@@ -453,8 +463,8 @@
         {
             "1368": 2020
         },
-        "totalWins": 21,
-        "totalGames": 74
+        "totalWins": 28,
+        "totalGames": 83
     },
     "bryan_mullins":
     {
@@ -463,8 +473,8 @@
         {
             "1356": 2020
         },
-        "totalWins": 37,
-        "totalGames": 79
+        "totalWins": 41,
+        "totalGames": 86
     },
     "eric_henderson":
     {
@@ -473,8 +483,8 @@
         {
             "1355": 2020
         },
-        "totalWins": 54,
-        "totalGames": 75
+        "totalWins": 63,
+        "totalGames": 84
     },
     "paul_sather":
     {
@@ -483,8 +493,8 @@
         {
             "1315": 2020
         },
-        "totalWins": 24,
-        "totalGames": 79
+        "totalWins": 25,
+        "totalGames": 85
     },
     "greg_paulus":
     {
@@ -493,8 +503,8 @@
         {
             "1310": 2020
         },
-        "totalWins": 31,
-        "totalGames": 73
+        "totalWins": 34,
+        "totalGames": 81
     },
     "willie_jones":
     {
@@ -503,8 +513,8 @@
         {
             "1299": 2020
         },
-        "totalWins": 31,
-        "totalGames": 71
+        "totalWins": 34,
+        "totalGames": 79
     },
     "lindsey_hunter":
     {
@@ -513,8 +523,8 @@
         {
             "1290": 2020
         },
-        "totalWins": 6,
-        "totalGames": 75
+        "totalWins": 7,
+        "totalGames": 82
     },
     "juwan_howard":
     {
@@ -523,8 +533,8 @@
         {
             "1276": 2020
         },
-        "totalWins": 50,
-        "totalGames": 75
+        "totalWins": 56,
+        "totalGames": 86
     },
     "greg_gary":
     {
@@ -534,8 +544,8 @@
             "1147": 2009,
             "1273": 2020
         },
-        "totalWins": 55,
-        "totalGames": 137
+        "totalWins": 58,
+        "totalGames": 145
     },
     "lennie_acuff":
     {
@@ -544,8 +554,8 @@
         {
             "1252": 2020
         },
-        "totalWins": 32,
-        "totalGames": 75
+        "totalWins": 36,
+        "totalGames": 83
     },
     "brett_nelson":
     {
@@ -554,8 +564,8 @@
         {
             "1221": 2020
         },
-        "totalWins": 12,
-        "totalGames": 67
+        "totalWins": 15,
+        "totalGames": 76
     },
     "chris_gerlufsen":
     {
@@ -574,8 +584,8 @@
         {
             "1156": 2020
         },
-        "totalWins": 43,
-        "totalGames": 76
+        "totalWins": 47,
+        "totalGames": 85
     },
     "john_smith":
     {
@@ -584,8 +594,8 @@
         {
             "1142": 2020
         },
-        "totalWins": 12,
-        "totalGames": 70
+        "totalWins": 14,
+        "totalGames": 78
     },
     "mark_pope":
     {
@@ -595,8 +605,8 @@
             "1430": 2016,
             "1140": 2020
         },
-        "totalWins": 119,
-        "totalGames": 194
+        "totalWins": 124,
+        "totalGames": 201
     },
     "dustin_kerns":
     {
@@ -606,8 +616,8 @@
             "1342": 2018,
             "1111": 2020
         },
-        "totalWins": 64,
-        "totalGames": 136
+        "totalWins": 68,
+        "totalGames": 144
     },
     "travis_steele":
     {
@@ -616,8 +626,8 @@
         {
             "1462": 2019
         },
-        "totalWins": 66,
-        "totalGames": 108
+        "totalWins": 68,
+        "totalGames": 117
     },
     "craig_smith":
     {
@@ -628,8 +638,8 @@
             "1429": 2019,
             "1428": 2022
         },
-        "totalWins": 148,
-        "totalGames": 238
+        "totalWins": 150,
+        "totalGames": 245
     },
     "chris_ogden":
     {
@@ -648,8 +658,8 @@
         {
             "1421": 2019
         },
-        "totalWins": 34,
-        "totalGames": 97
+        "totalWins": 38,
+        "totalGames": 104
     },
     "shaheen_holloway":
     {
@@ -658,8 +668,8 @@
         {
             "1389": 2019
         },
-        "totalWins": 34,
-        "totalGames": 75
+        "totalWins": 42,
+        "totalGames": 86
     },
     "richie_riley":
     {
@@ -669,8 +679,8 @@
             "1311": 2017,
             "1375": 2019
         },
-        "totalWins": 83,
-        "totalGames": 158
+        "totalWins": 87,
+        "totalGames": 165
     },
     "sam_scholl":
     {
@@ -679,8 +689,8 @@
         {
             "1360": 2019
         },
-        "totalWins": 42,
-        "totalGames": 101
+        "totalWins": 44,
+        "totalGames": 108
     },
     "david_cox":
     {
@@ -689,8 +699,8 @@
         {
             "1348": 2019
         },
-        "totalWins": 60,
-        "totalGames": 108
+        "totalWins": 63,
+        "totalGames": 118
     },
     "nick_mcdevitt":
     {
@@ -699,8 +709,8 @@
         {
             "1292": 2019
         },
-        "totalWins": 31,
-        "totalGames": 100
+        "totalWins": 39,
+        "totalGames": 111
     },
     "dan_engelstad":
     {
@@ -709,8 +719,8 @@
         {
             "1291": 2019
         },
-        "totalWins": 39,
-        "totalGames": 103
+        "totalWins": 42,
+        "totalGames": 111
     },
     "anfernee_hardaway":
     {
@@ -719,8 +729,8 @@
         {
             "1272": 2019
         },
-        "totalWins": 70,
-        "totalGames": 109
+        "totalWins": 79,
+        "totalGames": 120
     },
     "tavaras_hardy":
     {
@@ -729,8 +739,8 @@
         {
             "1259": 2019
         },
-        "totalWins": 43,
-        "totalGames": 102
+        "totalWins": 44,
+        "totalGames": 109
     },
     "ashley_howard":
     {
@@ -739,8 +749,8 @@
         {
             "1247": 2019
         },
-        "totalWins": 40,
-        "totalGames": 105
+        "totalWins": 44,
+        "totalGames": 115
     },
     "justin_hutson":
     {
@@ -749,8 +759,8 @@
         {
             "1201": 2019
         },
-        "totalWins": 57,
-        "totalGames": 104
+        "totalWins": 60,
+        "totalGames": 113
     },
     "michael_fly":
     {
@@ -759,8 +769,8 @@
         {
             "1195": 2019
         },
-        "totalWins": 41,
-        "totalGames": 98
+        "totalWins": 47,
+        "totalGames": 106
     },
     "a_w_hamilton":
     {
@@ -769,8 +779,8 @@
         {
             "1184": 2019
         },
-        "totalWins": 52,
-        "totalGames": 107
+        "totalWins": 54,
+        "totalGames": 114
     },
     "darian_devries":
     {
@@ -779,8 +789,8 @@
         {
             "1179": 2019
         },
-        "totalWins": 78,
-        "totalGames": 112
+        "totalWins": 85,
+        "totalGames": 122
     },
     "ron_sanchez":
     {
@@ -789,8 +799,8 @@
         {
             "1150": 2019
         },
-        "totalWins": 46,
-        "totalGames": 104
+        "totalWins": 50,
+        "totalGames": 113
     },
     "darrell_walker":
     {
@@ -799,8 +809,8 @@
         {
             "1114": 2019
         },
-        "totalWins": 42,
-        "totalGames": 101
+        "totalWins": 44,
+        "totalGames": 109
     },
     "dylan_howard":
     {
@@ -809,8 +819,8 @@
         {
             "1105": 2019
         },
-        "totalWins": 24,
-        "totalGames": 98
+        "totalWins": 31,
+        "totalGames": 107
     },
     "pat_baldwin":
     {
@@ -819,8 +829,8 @@
         {
             "1454": 2018
         },
-        "totalWins": 49,
-        "totalGames": 135
+        "totalWins": 52,
+        "totalGames": 143
     },
     "mike_hopkins":
     {
@@ -829,8 +839,8 @@
         {
             "1449": 2018
         },
-        "totalWins": 78,
-        "totalGames": 145
+        "totalWins": 83,
+        "totalGames": 156
     },
     "mike_rhoades":
     {
@@ -840,8 +850,8 @@
             "1349": 2015,
             "1433": 2018
         },
-        "totalWins": 134,
-        "totalGames": 233
+        "totalWins": 141,
+        "totalGames": 242
     },
     "phil_johnson":
     {
@@ -882,8 +892,8 @@
         {
             "1361": 2018
         },
-        "totalWins": 105,
-        "totalGames": 140
+        "totalWins": 115,
+        "totalGames": 152
     },
     "barret_peery":
     {
@@ -902,8 +912,8 @@
         {
             "1331": 2018
         },
-        "totalWins": 56,
-        "totalGames": 129
+        "totalWins": 59,
+        "totalGames": 136
     },
     "michael_boynton":
     {
@@ -912,8 +922,8 @@
         {
             "1329": 2018
         },
-        "totalWins": 80,
-        "totalGames": 147
+        "totalWins": 84,
+        "totalGames": 155
     },
     "grant_mccasland":
     {
@@ -923,8 +933,8 @@
             "1117": 2017,
             "1317": 2018
         },
-        "totalWins": 99,
-        "totalGames": 164
+        "totalWins": 106,
+        "totalGames": 173
     },
     "chris_jans":
     {
@@ -934,8 +944,8 @@
             "1132": 2015,
             "1308": 2018
         },
-        "totalWins": 121,
-        "totalGames": 157
+        "totalWins": 128,
+        "totalGames": 167
     },
     "tony_madlock":
     {
@@ -945,8 +955,8 @@
             "1279": 2018,
             "1354": 2022
         },
-        "totalWins": 21,
-        "totalGames": 52
+        "totalWins": 24,
+        "totalGames": 60
     },
     "jack_owens":
     {
@@ -955,8 +965,8 @@
         {
             "1275": 2018
         },
-        "totalWins": 55,
-        "totalGames": 132
+        "totalWins": 60,
+        "totalGames": 142
     },
     "david_padgett":
     {
@@ -976,7 +986,7 @@
             "1207": 2018
         },
         "totalWins": 68,
-        "totalGames": 140
+        "totalGames": 150
     },
     "shantay_legans":
     {
@@ -986,8 +996,8 @@
             "1186": 2018,
             "1339": 2022
         },
-        "totalWins": 79,
-        "totalGames": 138
+        "totalWins": 85,
+        "totalGames": 146
     },
     "niko_medved":
     {
@@ -998,8 +1008,8 @@
             "1179": 2018,
             "1161": 2019
         },
-        "totalWins": 129,
-        "totalGames": 254
+        "totalWins": 137,
+        "totalGames": 264
     },
     "keith_johnson":
     {
@@ -1018,8 +1028,8 @@
         {
             "1164": 2018
         },
-        "totalWins": 38,
-        "totalGames": 140
+        "totalWins": 42,
+        "totalGames": 150
     },
     "lamont_paris":
     {
@@ -1028,8 +1038,8 @@
         {
             "1151": 2018
         },
-        "totalWins": 69,
-        "totalGames": 138
+        "totalWins": 76,
+        "totalGames": 147
     },
     "wyking_jones":
     {
@@ -1049,8 +1059,8 @@
             "1122": 2018,
             "1410": 2022
         },
-        "totalWins": 72,
-        "totalGames": 138
+        "totalWins": 73,
+        "totalGames": 146
     },
     "donnie_marsh":
     {
@@ -1081,8 +1091,8 @@
             "1454": 2017,
             "1139": 2018
         },
-        "totalWins": 87,
-        "totalGames": 176
+        "totalWins": 90,
+        "totalGames": 186
     },
     "matt_lottich":
     {
@@ -1091,8 +1101,8 @@
         {
             "1434": 2017
         },
-        "totalWins": 84,
-        "totalGames": 173
+        "totalWins": 87,
+        "totalGames": 182
     },
     "steve_henson":
     {
@@ -1101,8 +1111,8 @@
         {
             "1427": 2017
         },
-        "totalWins": 68,
-        "totalGames": 161
+        "totalWins": 70,
+        "totalGames": 168
     },
     "ryan_odom":
     {
@@ -1112,8 +1122,8 @@
             "1420": 2017,
             "1429": 2022
         },
-        "totalWins": 95,
-        "totalGames": 162
+        "totalWins": 98,
+        "totalGames": 171
     },
     "rob_ehsan":
     {
@@ -1133,8 +1143,8 @@
             "1392": 2017,
             "1325": 2020
         },
-        "totalWins": 101,
-        "totalGames": 166
+        "totalWins": 106,
+        "totalGames": 177
     },
     "kyle_keller":
     {
@@ -1143,8 +1153,8 @@
         {
             "1372": 2017
         },
-        "totalWins": 98,
-        "totalGames": 150
+        "totalWins": 105,
+        "totalGames": 158
     },
     "t_j_otzelberger":
     {
@@ -1155,8 +1165,8 @@
             "1424": 2020,
             "1235": 2022
         },
-        "totalWins": 106,
-        "totalGames": 173
+        "totalWins": 110,
+        "totalGames": 182
     },
     "damon_stoudamire":
     {
@@ -1165,8 +1175,8 @@
         {
             "1334": 2017
         },
-        "totalWins": 69,
-        "totalGames": 161
+        "totalWins": 70,
+        "totalGames": 169
     },
     "paul_weir":
     {
@@ -1187,8 +1197,8 @@
             "1294": 2017,
             "1461": 2021
         },
-        "totalWins": 99,
-        "totalGames": 163
+        "totalWins": 105,
+        "totalGames": 174
     },
     "preston_spradlin":
     {
@@ -1197,8 +1207,8 @@
         {
             "1287": 2017
         },
-        "totalWins": 77,
-        "totalGames": 166
+        "totalWins": 81,
+        "totalGames": 175
     },
     "louis_rowe":
     {
@@ -1238,8 +1248,8 @@
             "1119": 2010,
             "1180": 2017
         },
-        "totalWins": 162,
-        "totalGames": 371
+        "totalWins": 166,
+        "totalGames": 379
     },
     "jeff_rutter":
     {
@@ -1268,8 +1278,8 @@
         {
             "1174": 2017
         },
-        "totalWins": 79,
-        "totalGames": 161
+        "totalWins": 86,
+        "totalGames": 172
     },
     "brian_earl":
     {
@@ -1278,8 +1288,8 @@
         {
             "1165": 2017
         },
-        "totalWins": 46,
-        "totalGames": 125
+        "totalWins": 49,
+        "totalGames": 132
     },
     "donyell_marshall":
     {
@@ -1308,8 +1318,8 @@
         {
             "1458": 2016
         },
-        "totalWins": 139,
-        "totalGames": 214
+        "totalWins": 145,
+        "totalGames": 223
     },
     "linc_darner":
     {
@@ -1339,8 +1349,8 @@
             "1424": 2016,
             "1381": 2017
         },
-        "totalWins": 88,
-        "totalGames": 191
+        "totalWins": 93,
+        "totalGames": 200
     },
     "chris_mullin":
     {
@@ -1369,8 +1379,8 @@
         {
             "1341": 2016
         },
-        "totalWins": 91,
-        "totalGames": 198
+        "totalWins": 95,
+        "totalGames": 206
     },
     "eric_musselman":
     {
@@ -1381,8 +1391,8 @@
             "1115": 2020,
             "1116": 2021
         },
-        "totalWins": 144,
-        "totalGames": 211
+        "totalWins": 151,
+        "totalGames": 221
     },
     "jay_joyner":
     {
@@ -1412,8 +1422,8 @@
         {
             "1293": 2016
         },
-        "totalWins": 129,
-        "totalGames": 193
+        "totalWins": 137,
+        "totalGames": 201
     },
     "eran_ganot":
     {
@@ -1422,8 +1432,8 @@
         {
             "1218": 2016
         },
-        "totalWins": 87,
-        "totalGames": 151
+        "totalWins": 93,
+        "totalGames": 161
     },
     "dave_paulsen":
     {
@@ -1443,8 +1453,8 @@
             "1256": 2012,
             "1196": 2016
         },
-        "totalWins": 221,
-        "totalGames": 336
+        "totalWins": 225,
+        "totalGames": 345
     },
     "steve_forbes":
     {
@@ -1454,8 +1464,8 @@
             "1190": 2016,
             "1448": 2021
         },
-        "totalWins": 142,
-        "totalGames": 203
+        "totalWins": 146,
+        "totalGames": 211
     },
     "dan_mchale":
     {
@@ -1475,8 +1485,8 @@
             "1151": 2016,
             "1269": 2018
         },
-        "totalWins": 100,
-        "totalGames": 193
+        "totalWins": 105,
+        "totalGames": 204
     },
     "mark_price":
     {
@@ -1496,8 +1506,8 @@
             "1138": 2016,
             "1104": 2020
         },
-        "totalWins": 143,
-        "totalGames": 213
+        "totalWins": 148,
+        "totalGames": 222
     },
     "nathan_davis":
     {
@@ -1506,8 +1516,8 @@
         {
             "1137": 2016
         },
-        "totalWins": 112,
-        "totalGames": 200
+        "totalWins": 116,
+        "totalGames": 208
     },
     "chris_beard":
     {
@@ -1518,8 +1528,8 @@
             "1403": 2017,
             "1400": 2022
         },
-        "totalWins": 148,
-        "totalGames": 210
+        "totalWins": 151,
+        "totalGames": 218
     },
     "avery_johnson":
     {
@@ -1539,8 +1549,8 @@
             "1423": 2015,
             "1301": 2018
         },
-        "totalWins": 153,
-        "totalGames": 236
+        "totalWins": 154,
+        "totalGames": 244
     },
     "orlando_antigua":
     {
@@ -1560,8 +1570,8 @@
             "1368": 2015,
             "1379": 2020
         },
-        "totalWins": 82,
-        "totalGames": 224
+        "totalWins": 83,
+        "totalGames": 235
     },
     "david_richman":
     {
@@ -1570,8 +1580,8 @@
         {
             "1295": 2015
         },
-        "totalWins": 137,
-        "totalGames": 230
+        "totalWins": 143,
+        "totalGames": 238
     },
     "andre_payne":
     {
@@ -1590,8 +1600,8 @@
         {
             "1285": 2015
         },
-        "totalWins": 140,
-        "totalGames": 227
+        "totalWins": 142,
+        "totalGames": 235
     },
     "kim_anderson":
     {
@@ -1610,8 +1620,8 @@
         {
             "1267": 2015
         },
-        "totalWins": 124,
-        "totalGames": 237
+        "totalWins": 128,
+        "totalGames": 247
     },
     "steve_wojciechowski":
     {
@@ -1652,8 +1662,8 @@
             "1158": 2015,
             "1130": 2022
         },
-        "totalWins": 128,
-        "totalGames": 227
+        "totalWins": 132,
+        "totalGames": 239
     },
     "jim_fox":
     {
@@ -1704,8 +1714,8 @@
             "1329": 2017,
             "1228": 2018
         },
-        "totalWins": 182,
-        "totalGames": 265
+        "totalWins": 187,
+        "totalGames": 274
     },
     "eddie_jordan":
     {
@@ -1734,8 +1744,8 @@
         {
             "1321": 2014
         },
-        "totalWins": 125,
-        "totalGames": 268
+        "totalWins": 129,
+        "totalGames": 278
     },
     "robert_jones":
     {
@@ -1744,8 +1754,8 @@
         {
             "1313": 2014
         },
-        "totalWins": 134,
-        "totalGames": 249
+        "totalWins": 143,
+        "totalGames": 259
     },
     "chris_casey":
     {
@@ -1776,18 +1786,19 @@
             "1278": 2014,
             "1307": 2022
         },
-        "totalWins": 159,
-        "totalGames": 308
+        "totalWins": 162,
+        "totalGames": 316
     },
     "g_g_smith":
     {
         "start": 2014,
         "teamStarts":
         {
-            "1259": 2014
+            "1259": 2014,
+            "1219": 2022
         },
-        "totalWins": 52,
-        "totalGames": 149
+        "totalWins": 63,
+        "totalGames": 178
     },
     "casey_alexander":
     {
@@ -1798,8 +1809,8 @@
             "1252": 2014,
             "1125": 2020
         },
-        "totalWins": 186,
-        "totalGames": 320
+        "totalWins": 191,
+        "totalGames": 327
     },
     "wayne_brent":
     {
@@ -1808,8 +1819,8 @@
         {
             "1238": 2014
         },
-        "totalWins": 103,
-        "totalGames": 254
+        "totalWins": 108,
+        "totalGames": 262
     },
     "dan_majerle":
     {
@@ -1828,8 +1839,8 @@
         {
             "1205": 2014
         },
-        "totalWins": 127,
-        "totalGames": 256
+        "totalWins": 132,
+        "totalGames": 264
     },
     "joe_dooley":
     {
@@ -1839,8 +1850,8 @@
             "1187": 1996,
             "1195": 2014
         },
-        "totalWins": 190,
-        "totalGames": 358
+        "totalWins": 194,
+        "totalGames": 366
     },
     "greg_herenda":
     {
@@ -1849,8 +1860,8 @@
         {
             "1192": 2014
         },
-        "totalWins": 93,
-        "totalGames": 249
+        "totalWins": 95,
+        "totalGames": 256
     },
     "keith_walker":
     {
@@ -1869,8 +1880,8 @@
         {
             "1168": 2014
         },
-        "totalWins": 90,
-        "totalGames": 210
+        "totalWins": 97,
+        "totalGames": 221
     },
     "will_wade":
     {
@@ -1881,8 +1892,8 @@
             "1433": 2016,
             "1261": 2018
         },
-        "totalWins": 183,
-        "totalGames": 271
+        "totalWins": 189,
+        "totalGames": 281
     },
     "brandon_miller":
     {
@@ -1902,8 +1913,8 @@
             "1138": 2014,
             "1113": 2016
         },
-        "totalWins": 151,
-        "totalGames": 265
+        "totalWins": 158,
+        "totalGames": 275
     },
     "mike_brennan":
     {
@@ -1912,8 +1923,8 @@
         {
             "1110": 2014
         },
-        "totalWins": 104,
-        "totalGames": 248
+        "totalWins": 108,
+        "totalGames": 258
     },
     "joe_golding":
     {
@@ -1923,8 +1934,8 @@
             "1101": 2014,
             "1431": 2022
         },
-        "totalWins": 109,
-        "totalGames": 228
+        "totalWins": 114,
+        "totalGames": 237
     },
     "pat_kelsey":
     {
@@ -1934,8 +1945,8 @@
             "1457": 2013,
             "1158": 2022
         },
-        "totalWins": 177,
-        "totalGames": 279
+        "totalWins": 181,
+        "totalGames": 289
     },
     "bashir_mason":
     {
@@ -1944,8 +1955,8 @@
         {
             "1447": 2013
         },
-        "totalWins": 149,
-        "totalGames": 273
+        "totalWins": 154,
+        "totalGames": 282
     },
     "james_johnson":
     {
@@ -1985,8 +1996,8 @@
             "1412": 2013,
             "1390": 2017
         },
-        "totalWins": 168,
-        "totalGames": 300
+        "totalWins": 170,
+        "totalGames": 310
     },
     "danny_manning":
     {
@@ -1994,10 +2005,11 @@
         "teamStarts":
         {
             "1409": 2013,
-            "1448": 2015
+            "1448": 2015,
+            "1268": 2022
         },
-        "totalWins": 115,
-        "totalGames": 252
+        "totalWins": 130,
+        "totalGames": 284
     },
     "chris_walker":
     {
@@ -2069,8 +2081,8 @@
         {
             "1309": 2013
         },
-        "totalWins": 96,
-        "totalGames": 252
+        "totalWins": 101,
+        "totalGames": 261
     },
     "dave_bezold":
     {
@@ -2091,8 +2103,8 @@
             "1373": 2019,
             "1203": 2020
         },
-        "totalWins": 140,
-        "totalGames": 294
+        "totalWins": 144,
+        "totalGames": 303
     },
     "chico_potts":
     {
@@ -2175,8 +2187,8 @@
             "1443": 2012,
             "1240": 2017
         },
-        "totalWins": 188,
-        "totalGames": 331
+        "totalWins": 193,
+        "totalGames": 339
     },
     "john_becker":
     {
@@ -2185,8 +2197,8 @@
         {
             "1436": 2012
         },
-        "totalWins": 233,
-        "totalGames": 325
+        "totalWins": 243,
+        "totalGames": 336
     },
     "bryce_drew":
     {
@@ -2197,8 +2209,8 @@
             "1435": 2017,
             "1213": 2021
         },
-        "totalWins": 177,
-        "totalGames": 290
+        "totalWins": 184,
+        "totalGames": 300
     },
     "dave_rice":
     {
@@ -2218,8 +2230,8 @@
             "1422": 2012,
             "1153": 2022
         },
-        "totalWins": 177,
-        "totalGames": 322
+        "totalWins": 180,
+        "totalGames": 333
     },
     "cuonzo_martin":
     {
@@ -2231,8 +2243,8 @@
             "1143": 2015,
             "1281": 2018
         },
-        "totalWins": 248,
-        "totalGames": 430
+        "totalWins": 251,
+        "totalGames": 441
     },
     "willis_wilson":
     {
@@ -2263,8 +2275,8 @@
             "1347": 2012,
             "1422": 2022
         },
-        "totalWins": 160,
-        "totalGames": 317
+        "totalWins": 163,
+        "totalGames": 324
     },
     "ed_cooley":
     {
@@ -2274,8 +2286,8 @@
             "1193": 2007,
             "1344": 2012
         },
-        "totalWins": 301,
-        "totalGames": 498
+        "totalWins": 306,
+        "totalGames": 506
     },
     "mitch_henderson":
     {
@@ -2284,8 +2296,8 @@
         {
             "1343": 2012
         },
-        "totalWins": 163,
-        "totalGames": 265
+        "totalWins": 170,
+        "totalGames": 273
     },
     "steve_prohm":
     {
@@ -2305,8 +2317,8 @@
         {
             "1284": 2012
         },
-        "totalWins": 175,
-        "totalGames": 334
+        "totalWins": 181,
+        "totalGames": 346
     },
     "steve_masiello":
     {
@@ -2315,8 +2327,8 @@
         {
             "1264": 2012
         },
-        "totalWins": 156,
-        "totalGames": 324
+        "totalWins": 160,
+        "totalGames": 334
     },
     "rob_senderoff":
     {
@@ -2325,8 +2337,8 @@
         {
             "1245": 2012
         },
-        "totalWins": 192,
-        "totalGames": 325
+        "totalWins": 202,
+        "totalGames": 336
     },
     "todd_howard":
     {
@@ -2367,8 +2379,8 @@
             "1195": 2012,
             "1425": 2014
         },
-        "totalWins": 205,
-        "totalGames": 342
+        "totalWins": 212,
+        "totalGames": 352
     },
     "jim_hayford":
     {
@@ -2378,8 +2390,8 @@
             "1186": 2012,
             "1370": 2018
         },
-        "totalWins": 162,
-        "totalGames": 309
+        "totalWins": 168,
+        "totalGames": 318
     },
     "archie_miller":
     {
@@ -2399,8 +2411,8 @@
         {
             "1159": 2012
         },
-        "totalWins": 157,
-        "totalGames": 318
+        "totalWins": 168,
+        "totalGames": 329
     },
     "joe_jones":
     {
@@ -2410,8 +2422,8 @@
             "1162": 2004,
             "1131": 2012
         },
-        "totalWins": 255,
-        "totalGames": 513
+        "totalWins": 260,
+        "totalGames": 521
     },
     "willie_hayes":
     {
@@ -2451,8 +2463,8 @@
             "1460": 2011,
             "1282": 2020
         },
-        "totalWins": 127,
-        "totalGames": 255
+        "totalWins": 131,
+        "totalGames": 262
     },
     "brian_wardle":
     {
@@ -2462,8 +2474,8 @@
             "1453": 2011,
             "1133": 2016
         },
-        "totalWins": 184,
-        "totalGames": 358
+        "totalWins": 188,
+        "totalGames": 365
     },
     "dan_hurley":
     {
@@ -2474,8 +2486,8 @@
             "1348": 2013,
             "1163": 2019
         },
-        "totalWins": 211,
-        "totalGames": 355
+        "totalWins": 219,
+        "totalGames": 366
     },
     "russ_turner":
     {
@@ -2484,8 +2496,8 @@
         {
             "1414": 2011
         },
-        "totalWins": 210,
-        "totalGames": 358
+        "totalWins": 215,
+        "totalGames": 366
     },
     "mitch_buonaguro":
     {
@@ -2505,8 +2517,8 @@
         {
             "1358": 2011
         },
-        "totalWins": 184,
-        "totalGames": 336
+        "totalWins": 189,
+        "totalGames": 344
     },
     "andrew_toole":
     {
@@ -2515,8 +2527,8 @@
         {
             "1352": 2011
         },
-        "totalWins": 187,
-        "totalGames": 368
+        "totalWins": 189,
+        "totalGames": 377
     },
     "b_j_hill":
     {
@@ -2546,8 +2558,8 @@
             "1235": 2011,
             "1304": 2020
         },
-        "totalWins": 130,
-        "totalGames": 244
+        "totalWins": 134,
+        "totalGames": 253
     },
     "tim_cluess":
     {
@@ -2596,8 +2608,8 @@
         {
             "1216": 2011
         },
-        "totalWins": 156,
-        "totalGames": 355
+        "totalWins": 163,
+        "totalGames": 367
     },
     "chris_holtmann":
     {
@@ -2608,8 +2620,8 @@
             "1139": 2015,
             "1326": 2018
         },
-        "totalWins": 202,
-        "totalGames": 329
+        "totalWins": 207,
+        "totalGames": 340
     },
     "bill_courtney":
     {
@@ -2638,8 +2650,8 @@
         {
             "1129": 2011
         },
-        "totalWins": 215,
-        "totalGames": 351
+        "totalWins": 224,
+        "totalGames": 362
     },
     "jason_capel":
     {
@@ -2659,8 +2671,8 @@
             "1462": 2010,
             "1257": 2019
         },
-        "totalWins": 272,
-        "totalGames": 400
+        "totalWins": 274,
+        "totalGames": 409
     },
     "shaka_smart":
     {
@@ -2671,8 +2683,8 @@
             "1400": 2016,
             "1266": 2022
         },
-        "totalWins": 271,
-        "totalGames": 412
+        "totalWins": 274,
+        "totalGames": 420
     },
     "brooks_lee":
     {
@@ -2711,8 +2723,8 @@
         {
             "1316": 2010
         },
-        "totalWins": 173,
-        "totalGames": 381
+        "totalWins": 177,
+        "totalGames": 388
     },
     "david_carter":
     {
@@ -2731,8 +2743,8 @@
         {
             "1300": 2010
         },
-        "totalWins": 183,
-        "totalGames": 346
+        "totalWins": 188,
+        "totalGames": 355
     },
     "josh_pastner":
     {
@@ -2742,8 +2754,8 @@
             "1272": 2010,
             "1210": 2017
         },
-        "totalWins": 248,
-        "totalGames": 402
+        "totalWins": 250,
+        "totalGames": 412
     },
     "sean_kearney":
     {
@@ -2762,8 +2774,8 @@
         {
             "1214": 2010
         },
-        "totalWins": 184,
-        "totalGames": 381
+        "totalWins": 186,
+        "totalGames": 388
     },
     "greg_vetrone":
     {
@@ -2845,8 +2857,8 @@
             "1390": 2009,
             "1416": 2017
         },
-        "totalWins": 243,
-        "totalGames": 421
+        "totalWins": 248,
+        "totalGames": 430
     },
     "craig_robinson":
     {
@@ -2868,18 +2880,19 @@
             "1228": 2013,
             "1103": 2018
         },
-        "totalWins": 246,
-        "totalGames": 426
+        "totalWins": 255,
+        "totalGames": 438
     },
     "brian_jones":
     {
         "start": 2009,
         "teamStarts":
         {
-            "1315": 2009
+            "1315": 2009,
+            "1229": 2022
         },
-        "totalWins": 125,
-        "totalGames": 301
+        "totalWins": 136,
+        "totalGames": 332
     },
     "sean_woods":
     {
@@ -2890,8 +2903,8 @@
             "1287": 2013,
             "1380": 2019
         },
-        "totalWins": 165,
-        "totalGames": 380
+        "totalWins": 168,
+        "totalGames": 388
     },
     "bob_hoffman":
     {
@@ -2912,8 +2925,8 @@
             "1269": 2009,
             "1254": 2018
         },
-        "totalWins": 212,
-        "totalGames": 418
+        "totalWins": 219,
+        "totalGames": 426
     },
     "geno_ford":
     {
@@ -2924,8 +2937,8 @@
             "1133": 2012,
             "1392": 2020
         },
-        "totalWins": 144,
-        "totalGames": 300
+        "totalWins": 149,
+        "totalGames": 308
     },
     "matt_brady":
     {
@@ -3092,8 +3105,8 @@
             "1309": 2008,
             "1364": 2018
         },
-        "totalWins": 120,
-        "totalGames": 216
+        "totalWins": 128,
+        "totalGames": 226
     },
     "marvin_menzies":
     {
@@ -3126,8 +3139,8 @@
             "1416": 2011,
             "1391": 2020
         },
-        "totalWins": 165,
-        "totalGames": 334
+        "totalWins": 166,
+        "totalGames": 341
     },
     "butch_pierre":
     {
@@ -3146,8 +3159,8 @@
         {
             "1250": 2008
         },
-        "totalWins": 232,
-        "totalGames": 433
+        "totalWins": 236,
+        "totalGames": 441
     },
     "frank_martin":
     {
@@ -3157,8 +3170,8 @@
             "1243": 2008,
             "1376": 2013
         },
-        "totalWins": 261,
-        "totalGames": 451
+        "totalWins": 266,
+        "totalGames": 460
     },
     "kevin_willard":
     {
@@ -3168,8 +3181,8 @@
             "1233": 2008,
             "1371": 2011
         },
-        "totalWins": 261,
-        "totalGames": 462
+        "totalWins": 268,
+        "totalGames": 472
     },
     "kevin_mckenna":
     {
@@ -3282,8 +3295,8 @@
             "1127": 2008,
             "1288": 2020
         },
-        "totalWins": 63,
-        "totalGames": 121
+        "totalWins": 69,
+        "totalGames": 130
     },
     "jeff_reynolds":
     {
@@ -3302,8 +3315,8 @@
         {
             "1451": 2007
         },
-        "totalWins": 271,
-        "totalGames": 446
+        "totalWins": 274,
+        "totalGames": 455
     },
     "tony_bennett":
     {
@@ -3313,8 +3326,8 @@
             "1450": 2007,
             "1438": 2010
         },
-        "totalWins": 361,
-        "totalGames": 495
+        "totalWins": 365,
+        "totalGames": 503
     },
     "anthony_grant":
     {
@@ -3325,8 +3338,8 @@
             "1104": 2010,
             "1173": 2018
         },
-        "totalWins": 276,
-        "totalGames": 427
+        "totalWins": 284,
+        "totalGames": 437
     },
     "tony_barbee":
     {
@@ -3337,8 +3350,8 @@
             "1120": 2011,
             "1141": 2022
         },
-        "totalWins": 131,
-        "totalGames": 268
+        "totalWins": 133,
+        "totalGames": 279
     },
     "brooks_thompson":
     {
@@ -3358,8 +3371,8 @@
             "1426": 2007,
             "1407": 2020
         },
-        "totalWins": 225,
-        "totalGames": 426
+        "totalWins": 229,
+        "totalGames": 434
     },
     "benny_moss":
     {
@@ -3379,8 +3392,8 @@
             "1389": 2007,
             "1265": 2019
         },
-        "totalWins": 188,
-        "totalGames": 476
+        "totalWins": 194,
+        "totalGames": 485
     },
     "jamaal_brown":
     {
@@ -3440,8 +3453,8 @@
         {
             "1320": 2007
         },
-        "totalWins": 288,
-        "totalGames": 479
+        "totalWins": 294,
+        "totalGames": 487
     },
     "bill_coen":
     {
@@ -3450,8 +3463,8 @@
         {
             "1318": 2007
         },
-        "totalWins": 255,
-        "totalGames": 488
+        "totalWins": 257,
+        "totalGames": 496
     },
     "buzz_williams":
     {
@@ -3463,8 +3476,8 @@
             "1439": 2015,
             "1401": 2020
         },
-        "totalWins": 279,
-        "totalGames": 457
+        "totalWins": 287,
+        "totalGames": 469
     },
     "sidney_lowe":
     {
@@ -3484,8 +3497,8 @@
             "1294": 2007,
             "1160": 2011
         },
-        "totalWins": 284,
-        "totalGames": 491
+        "totalWins": 291,
+        "totalGames": 500
     },
     "donnie_tyndall":
     {
@@ -3508,7 +3521,7 @@
             "1333": 2015
         },
         "totalWins": 252,
-        "totalGames": 463
+        "totalGames": 474
     },
     "barry_rohrssen":
     {
@@ -3546,10 +3559,11 @@
         "teamStarts":
         {
             "1214": 2007,
-            "1224": 2011
+            "1224": 2011,
+            "1261": 2022
         },
-        "totalWins": 128,
-        "totalGames": 364
+        "totalWins": 150,
+        "totalGames": 397
     },
     "monte_ross":
     {
@@ -3579,8 +3593,8 @@
             "1454": 2006,
             "1442": 2021
         },
-        "totalWins": 188,
-        "totalGames": 379
+        "totalWins": 190,
+        "totalGames": 386
     },
     "mike_lonergan":
     {
@@ -3612,8 +3626,8 @@
             "1392": 2006,
             "1353": 2017
         },
-        "totalWins": 270,
-        "totalGames": 505
+        "totalWins": 275,
+        "totalGames": 514
     },
     "jim_yarbrough":
     {
@@ -3633,8 +3647,8 @@
             "1355": 2006,
             "1460": 2017
         },
-        "totalWins": 283,
-        "totalGames": 498
+        "totalWins": 290,
+        "totalGames": 508
     },
     "darrell_hawkins":
     {
@@ -3666,8 +3680,8 @@
             "1169": 2014,
             "1126": 2022
         },
-        "totalWins": 88,
-        "totalGames": 231
+        "totalWins": 91,
+        "totalGames": 238
     },
     "tim_miles":
     {
@@ -3679,8 +3693,8 @@
             "1304": 2013,
             "1363": 2022
         },
-        "totalWins": 215,
-        "totalGames": 444
+        "totalWins": 216,
+        "totalGames": 453
     },
     "jeff_neubauer":
     {
@@ -3702,8 +3716,8 @@
             "1279": 2007,
             "1412": 2021
         },
-        "totalWins": 289,
-        "totalGames": 465
+        "totalWins": 298,
+        "totalGames": 476
     },
     "dave_rose":
     {
@@ -3836,8 +3850,8 @@
             "1308": 2005,
             "1177": 2022
         },
-        "totalWins": 15,
-        "totalGames": 49
+        "totalWins": 19,
+        "totalGames": 59
     },
     "mark_fox":
     {
@@ -3849,8 +3863,8 @@
             "1168": 2020,
             "1143": 2021
         },
-        "totalWins": 302,
-        "totalGames": 523
+        "totalWins": 305,
+        "totalGames": 531
     },
     "craig_rasmusen":
     {
@@ -3882,8 +3896,8 @@
             "1281": 2012,
             "1409": 2015
         },
-        "totalWins": 326,
-        "totalGames": 546
+        "totalWins": 330,
+        "totalGames": 556
     },
     "jim_whitesell":
     {
@@ -3893,8 +3907,8 @@
             "1260": 2005,
             "1138": 2020
         },
-        "totalWins": 143,
-        "totalGames": 277
+        "totalWins": 151,
+        "totalGames": 288
     },
     "jimmy_patsos":
     {
@@ -3956,8 +3970,8 @@
             "1102": 2005,
             "1350": 2006
         },
-        "totalWins": 309,
-        "totalGames": 552
+        "totalWins": 316,
+        "totalGames": 563
     },
     "paul_biancardi":
     {
@@ -3988,8 +4002,8 @@
             "1376": 2009,
             "1297": 2020
         },
-        "totalWins": 206,
-        "totalGames": 343
+        "totalWins": 214,
+        "totalGames": 353
     },
     "kerry_rupp":
     {
@@ -4052,8 +4066,8 @@
             "1356": 2004,
             "1345": 2006
         },
-        "totalWins": 384,
-        "totalGames": 562
+        "totalWins": 391,
+        "totalGames": 573
     },
     "jamie_dixon":
     {
@@ -4063,8 +4077,8 @@
             "1338": 2004,
             "1395": 2017
         },
-        "totalWins": 408,
-        "totalGames": 592
+        "totalWins": 413,
+        "totalGames": 604
     },
     "jerry_eaves":
     {
@@ -4085,8 +4099,8 @@
             "1153": 2007,
             "1417": 2020
         },
-        "totalWins": 403,
-        "totalGames": 586
+        "totalWins": 412,
+        "totalGames": 598
     },
     "milan_brown":
     {
@@ -4108,8 +4122,8 @@
             "1210": 2012,
             "1378": 2018
         },
-        "totalWins": 294,
-        "totalGames": 548
+        "totalWins": 295,
+        "totalGames": 558
     },
     "bob_burton":
     {
@@ -4149,8 +4163,8 @@
             "1459": 2003,
             "1439": 2020
         },
-        "totalWins": 300,
-        "totalGames": 569
+        "totalWins": 309,
+        "totalGames": 580
     },
     "tod_kowalczyk":
     {
@@ -4160,8 +4174,8 @@
             "1453": 2003,
             "1405": 2011
         },
-        "totalWins": 339,
-        "totalGames": 600
+        "totalWins": 347,
+        "totalGames": 610
     },
     "scott_drew":
     {
@@ -4171,8 +4185,8 @@
             "1434": 2003,
             "1124": 2004
         },
-        "totalWins": 369,
-        "totalGames": 587
+        "totalWins": 376,
+        "totalGames": 596
     },
     "billy_gillispie":
     {
@@ -4185,8 +4199,8 @@
             "1403": 2012,
             "1470": 2021
         },
-        "totalWins": 149,
-        "totalGames": 274
+        "totalWins": 152,
+        "totalGames": 281
     },
     "brad_brownell":
     {
@@ -4197,8 +4211,8 @@
             "1460": 2007,
             "1155": 2011
         },
-        "totalWins": 373,
-        "totalGames": 609
+        "totalWins": 378,
+        "totalGames": 620
     },
     "mike_anderson":
     {
@@ -4210,8 +4224,8 @@
             "1116": 2012,
             "1385": 2021
         },
-        "totalWins": 402,
-        "totalGames": 622
+        "totalWins": 406,
+        "totalGames": 632
     },
     "neil_dougherty":
     {
@@ -4232,8 +4246,8 @@
             "1116": 2008,
             "1399": 2020
         },
-        "totalWins": 154,
-        "totalGames": 339
+        "totalWins": 159,
+        "totalGames": 347
     },
     "jerry_francis":
     {
@@ -4278,8 +4292,8 @@
             "1336": 2021,
             "1420": 2022
         },
-        "totalWins": 225,
-        "totalGames": 492
+        "totalWins": 232,
+        "totalGames": 503
     },
     "larry_reynolds":
     {
@@ -4401,8 +4415,8 @@
             "1133": 2003,
             "1413": 2012
         },
-        "totalWins": 277,
-        "totalGames": 575
+        "totalWins": 280,
+        "totalGames": 582
     },
     "greg_graham":
     {
@@ -4433,8 +4447,8 @@
             "1397": 2006,
             "1120": 2015
         },
-        "totalWins": 365,
-        "totalGames": 546
+        "totalWins": 370,
+        "totalGames": 555
     },
     "jay_wright":
     {
@@ -4444,8 +4458,8 @@
             "1220": 1995,
             "1437": 2002
         },
-        "totalWins": 585,
-        "totalGames": 845
+        "totalWins": 594,
+        "totalGames": 855
     },
     "ronnie_courtney":
     {
@@ -4474,8 +4488,8 @@
         {
             "1388": 2002
         },
-        "totalWins": 440,
-        "totalGames": 624
+        "totalWins": 446,
+        "totalGames": 633
     },
     "rob_lanier":
     {
@@ -4485,8 +4499,8 @@
             "1373": 2002,
             "1209": 2020
         },
-        "totalWins": 92,
-        "totalGames": 189
+        "totalWins": 101,
+        "totalGames": 198
     },
     "mark_schmidt":
     {
@@ -4496,8 +4510,8 @@
             "1352": 2002,
             "1382": 2008
         },
-        "totalWins": 330,
-        "totalGames": 607
+        "totalWins": 338,
+        "totalGames": 617
     },
     "tim_o'shea":
     {
@@ -4519,8 +4533,8 @@
             "1235": 2007,
             "1166": 2011
         },
-        "totalWins": 391,
-        "totalGames": 642
+        "totalWins": 400,
+        "totalGames": 654
     },
     "ron_everhart":
     {
@@ -4565,8 +4579,8 @@
             "1378": 2008,
             "1185": 2022
         },
-        "totalWins": 209,
-        "totalGames": 425
+        "totalWins": 211,
+        "totalGames": 434
     },
     "karl_hobbs":
     {
@@ -4597,8 +4611,8 @@
             "1234": 2008,
             "1191": 2020
         },
-        "totalWins": 176,
-        "totalGames": 346
+        "totalWins": 177,
+        "totalGames": 355
     },
     "will_brown":
     {
@@ -4630,8 +4644,8 @@
             "1378": 2004,
             "1197": 2018
         },
-        "totalWins": 128,
-        "totalGames": 331
+        "totalWins": 131,
+        "totalGames": 339
     },
     "dick_hunsaker":
     {
@@ -4734,8 +4748,8 @@
             "1411": 2013,
             "1178": 2019
         },
-        "totalWins": 378,
-        "totalGames": 669
+        "totalWins": 383,
+        "totalGames": 678
     },
     "ray_mccallum":
     {
@@ -4781,8 +4795,8 @@
             "1329": 2009,
             "1387": 2017
         },
-        "totalWins": 355,
-        "totalGames": 641
+        "totalWins": 362,
+        "totalGames": 653
     },
     "greg_jackson":
     {
@@ -4823,8 +4837,8 @@
             "1130": 2011,
             "1335": 2016
         },
-        "totalWins": 274,
-        "totalGames": 559
+        "totalWins": 276,
+        "totalGames": 565
     },
     "dale_layer":
     {
@@ -4869,8 +4883,8 @@
             "1260": 2012,
             "1328": 2022
         },
-        "totalWins": 270,
-        "totalGames": 519
+        "totalWins": 275,
+        "totalGames": 529
     },
     "jim_rosborough":
     {
@@ -4913,8 +4927,8 @@
             "1343": 2005,
             "1176": 2008
         },
-        "totalWins": 246,
-        "totalGames": 514
+        "totalWins": 247,
+        "totalGames": 522
     },
     "james_jones":
     {
@@ -4923,8 +4937,8 @@
         {
             "1463": 2000
         },
-        "totalWins": 318,
-        "totalGames": 600
+        "totalWins": 325,
+        "totalGames": 609
     },
     "bo_ryan":
     {
@@ -5013,7 +5027,7 @@
             "1449": 2003
         },
         "totalWins": 422,
-        "totalGames": 758
+        "totalGames": 765
     },
     "billy_kennedy":
     {
@@ -5048,8 +5062,8 @@
             "1417": 2004,
             "1280": 2016
         },
-        "totalWins": 484,
-        "totalGames": 764
+        "totalWins": 488,
+        "totalGames": 775
     },
     "scott_sutton":
     {
@@ -5068,8 +5082,8 @@
         {
             "1324": 2000
         },
-        "totalWins": 358,
-        "totalGames": 684
+        "totalWins": 362,
+        "totalGames": 693
     },
     "matt_doherty":
     {
@@ -5091,8 +5105,8 @@
         {
             "1322": 2000
         },
-        "totalWins": 270,
-        "totalGames": 631
+        "totalWins": 272,
+        "totalGames": 639
     },
     "wil_jones":
     {
@@ -5147,8 +5161,8 @@
             "1261": 2013,
             "1411": 2019
         },
-        "totalWins": 326,
-        "totalGames": 602
+        "totalWins": 334,
+        "totalGames": 612
     },
     "tom_crean":
     {
@@ -5160,7 +5174,7 @@
             "1208": 2019
         },
         "totalWins": 382,
-        "totalGames": 666
+        "totalGames": 675
     },
     "bobby_gonzalez":
     {
@@ -5184,8 +5198,8 @@
             "1417": 2014,
             "1305": 2020
         },
-        "totalWins": 544,
-        "totalGames": 839
+        "totalWins": 548,
+        "totalGames": 849
     },
     "mark_few":
     {
@@ -5194,8 +5208,8 @@
         {
             "1211": 2000
         },
-        "totalWins": 604,
-        "totalGames": 710
+        "totalWins": 611,
+        "totalGames": 718
     },
     "steve_seymour":
     {
@@ -5226,8 +5240,8 @@
             "1138": 2000,
             "1145": 2017
         },
-        "totalWins": 269,
-        "totalGames": 581
+        "totalWins": 272,
+        "totalGames": 589
     },
     "rick_byrd":
     {
@@ -5322,8 +5336,8 @@
             "1358": 1999,
             "1418": 2011
         },
-        "totalWins": 379,
-        "totalGames": 665
+        "totalWins": 385,
+        "totalGames": 675
     },
     "bruce_weber":
     {
@@ -5334,8 +5348,8 @@
             "1228": 2004,
             "1243": 2013
         },
-        "totalWins": 475,
-        "totalGames": 754
+        "totalWins": 477,
+        "totalGames": 763
     },
     "joel_sobotka":
     {
@@ -5408,8 +5422,8 @@
             "1280": 1999,
             "1443": 2017
         },
-        "totalWins": 388,
-        "totalGames": 612
+        "totalWins": 395,
+        "totalGames": 621
     },
     "rod_barnes":
     {
@@ -5420,8 +5434,8 @@
             "1209": 2008,
             "1167": 2012
         },
-        "totalWins": 307,
-        "totalGames": 651
+        "totalWins": 309,
+        "totalGames": 661
     },
     "ray_martin":
     {
@@ -5454,8 +5468,8 @@
             "1401": 2008,
             "1268": 2012
         },
-        "totalWins": 454,
-        "totalGames": 724
+        "totalWins": 458,
+        "totalGames": 733
     },
     "ron_hunter":
     {
@@ -5466,8 +5480,8 @@
             "1209": 2012,
             "1408": 2020
         },
-        "totalWins": 383,
-        "totalGames": 688
+        "totalWins": 387,
+        "totalGames": 697
     },
     "jeff_ruland":
     {
@@ -5509,8 +5523,8 @@
             "1307": 2003,
             "1251": 2008
         },
-        "totalWins": 288,
-        "totalGames": 509
+        "totalWins": 293,
+        "totalGames": 518
     },
     "emmett_davis":
     {
@@ -5635,8 +5649,8 @@
             "1276": 2002,
             "1217": 2008
         },
-        "totalWins": 401,
-        "totalGames": 673
+        "totalWins": 403,
+        "totalGames": 680
     },
     "kevin_bannon":
     {
@@ -5798,8 +5812,8 @@
             "1278": 2000,
             "1253": 2008
         },
-        "totalWins": 367,
-        "totalGames": 733
+        "totalWins": 375,
+        "totalGames": 744
     },
     "ron_jirsa":
     {
@@ -5821,8 +5835,8 @@
             "1206": 1998,
             "1274": 2012
         },
-        "totalWins": 623,
-        "totalGames": 1049
+        "totalWins": 630,
+        "totalGames": 1059
     },
     "scott_perry":
     {
@@ -6100,8 +6114,8 @@
             "1336": 2004,
             "1298": 2012
         },
-        "totalWins": 331,
-        "totalGames": 736
+        "totalWins": 336,
+        "totalGames": 744
     },
     "kurt_kanaskie":
     {
@@ -6349,8 +6363,8 @@
             "1301": 2012,
             "1169": 2019
         },
-        "totalWins": 417,
-        "totalGames": 715
+        "totalWins": 419,
+        "totalGames": 724
     },
     "chris_fuller":
     {
@@ -6369,8 +6383,8 @@
         {
             "1277": 1996
         },
-        "totalWins": 600,
-        "totalGames": 835
+        "totalWins": 605,
+        "totalGames": 847
     },
     "ray_haskins":
     {
@@ -6389,8 +6403,8 @@
         {
             "1248": 1996
         },
-        "totalWins": 329,
-        "totalGames": 752
+        "totalWins": 332,
+        "totalGames": 760
     },
     "bill_jones":
     {
@@ -6454,8 +6468,8 @@
             "1174": 1996,
             "1323": 2001
         },
-        "totalWins": 534,
-        "totalGames": 821
+        "totalWins": 540,
+        "totalGames": 830
     },
     "ricardo_patton":
     {
@@ -6889,8 +6903,8 @@
             "1228": 2001,
             "1242": 2004
         },
-        "totalWins": 684,
-        "totalGames": 889
+        "totalWins": 693,
+        "totalGames": 900
     },
     "tim_jankovich":
     {
@@ -6901,8 +6915,8 @@
             "1229": 2008,
             "1374": 2017
         },
-        "totalWins": 256,
-        "totalGames": 431
+        "totalWins": 263,
+        "totalGames": 441
     },
     "jeff_capel":
     {
@@ -6915,8 +6929,8 @@
             "1328": 2007,
             "1338": 2019
         },
-        "totalWins": 349,
-        "totalGames": 624
+        "totalWins": 352,
+        "totalGames": 632
     },
     "herb_sendek":
     {
@@ -6928,8 +6942,8 @@
             "1113": 2007,
             "1365": 2017
         },
-        "totalWins": 477,
-        "totalGames": 832
+        "totalWins": 482,
+        "totalGames": 840
     },
     "skip_prosser":
     {
@@ -6962,7 +6976,7 @@
             "1249": 2022
         },
         "totalWins": 49,
-        "totalGames": 152
+        "totalGames": 159
     },
     "paul_westhead":
     {
@@ -7263,8 +7277,8 @@
             "1272": 2017,
             "1219": 2019
         },
-        "totalWins": 593,
-        "totalGames": 942
+        "totalWins": 597,
+        "totalGames": 951
     },
     "james_dickey":
     {
@@ -7412,8 +7426,8 @@
             "1187": 2000,
             "1306": 2006
         },
-        "totalWins": 407,
-        "totalGames": 852
+        "totalWins": 412,
+        "totalGames": 861
     },
     "rich_johnson":
     {
@@ -7468,7 +7482,7 @@
             "1182": 2018
         },
         "totalWins": 376,
-        "totalGames": 600
+        "totalGames": 610
     },
     "dan_bazzani":
     {
@@ -7524,8 +7538,8 @@
             "1110": 2001,
             "1330": 2014
         },
-        "totalWins": 513,
-        "totalGames": 896
+        "totalWins": 517,
+        "totalGames": 906
     },
     "stu_starner":
     {
@@ -7559,8 +7573,8 @@
             "1292": 2003,
             "1279": 2019
         },
-        "totalWins": 427,
-        "totalGames": 707
+        "totalWins": 428,
+        "totalGames": 716
     },
     "dave_fehte":
     {
@@ -7924,8 +7938,8 @@
             "1166": 1995,
             "1332": 2011
         },
-        "totalWins": 661,
-        "totalGames": 994
+        "totalWins": 665,
+        "totalGames": 1005
     },
     "kevin_o'neill":
     {
@@ -7998,8 +8012,8 @@
         {
             "1172": 1990
         },
-        "totalWins": 557,
-        "totalGames": 914
+        "totalWins": 565,
+        "totalGames": 925
     },
     "jack_bruen":
     {
@@ -8258,8 +8272,8 @@
             "1272": 2001,
             "1246": 2010
         },
-        "totalWins": 726,
-        "totalGames": 936
+        "totalWins": 733,
+        "totalGames": 946
     },
     "steve_lappas":
     {
@@ -8406,8 +8420,8 @@
             "1231": 2007,
             "1222": 2015
         },
-        "totalWins": 577,
-        "totalGames": 853
+        "totalWins": 586,
+        "totalGames": 865
     },
     "frankie_allen":
     {
@@ -8570,8 +8584,8 @@
             "1400": 1999,
             "1397": 2016
         },
-        "totalWins": 706,
-        "totalGames": 1067
+        "totalWins": 716,
+        "totalGames": 1078
     },
     "bob_hofman":
     {
@@ -8803,8 +8817,8 @@
             "1274": 1991,
             "1199": 2003
         },
-        "totalWins": 578,
-        "totalGames": 1001
+        "totalWins": 582,
+        "totalGames": 1010
     },
     "billy_hahn":
     {
@@ -9135,8 +9149,8 @@
             "1257": 2002,
             "1233": 2021
         },
-        "totalWins": 643,
-        "totalGames": 847
+        "totalWins": 649,
+        "totalGames": 856
     },
     "ted_owens":
     {
@@ -9243,8 +9257,8 @@
             "1373": 2006,
             "1234": 2011
         },
-        "totalWins": 455,
-        "totalGames": 777
+        "totalWins": 466,
+        "totalGames": 790
     },
     "john_thurston":
     {
@@ -9881,8 +9895,8 @@
         {
             "1393": 1985
         },
-        "totalWins": 842,
-        "totalGames": 1171
+        "totalWins": 846,
+        "totalGames": 1181
     },
     "tom_davis":
     {
@@ -11178,8 +11192,8 @@
         {
             "1181": 1985
         },
-        "totalWins": 958,
-        "totalGames": 1193
+        "totalWins": 967,
+        "totalGames": 1204
     },
     "eddie_burke":
     {
@@ -11355,8 +11369,8 @@
             "1120": 1995,
             "1157": 2008
         },
-        "totalWins": 553,
-        "totalGames": 980
+        "totalWins": 557,
+        "totalGames": 987
     },
     "tony_yates":
     {
@@ -11611,8 +11625,8 @@
             "1243": 2007,
             "1452": 2008
         },
-        "totalWins": 788,
-        "totalGames": 1122
+        "totalWins": 791,
+        "totalGames": 1133
     },
     "reggie_minton":
     {
