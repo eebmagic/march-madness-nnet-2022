@@ -17,7 +17,7 @@ model = Network().to(device)
 model.load_state_dict(torch.load('trained_models/8000000_epochs_MSE_1e-8.pt', map_location=device))
 
 # Load sklearn model
-clf = load('trained_models/sklearn_10_1e-06.joblib')
+clf = load('trained_models/sklearn_3000_1e-06.joblib')
 
 
 def getData(teamAID, teamBID, day):
