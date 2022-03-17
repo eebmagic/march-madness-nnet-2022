@@ -9,11 +9,16 @@ from build_yearly_tourney_ids import getName
 
 pd.options.mode.chained_assignment = None
 
-regCompact = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MRegularSeasonCompactResults.csv')
-regDetailed = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MRegularSeasonDetailedResults.csv')
-seeds = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MNCAATourneySeeds.csv')
-ordData = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MMasseyOrdinals.csv')
-teamNames = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MTeams.csv')
+# regCompact = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MRegularSeasonCompactResults.csv')
+# regDetailed = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MRegularSeasonDetailedResults.csv')
+# seeds = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MNCAATourneySeeds.csv')
+# ordData = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MMasseyOrdinals.csv')
+# teamNames = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage1/MTeams.csv')
+regCompact = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage2/MRegularSeasonCompactResults.csv')
+regDetailed = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage2/MRegularSeasonDetailedResults.csv')
+seeds = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage2/MNCAATourneySeeds.csv')
+ordData = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage2/MMasseyOrdinals_thruDay128.csv')
+teamNames = pd.read_csv('data/mens-march-mania-2022/MDataFiles_Stage2/MTeams.csv')
 
 with open('valid_ordinals.json') as file:
     validOrdinals = json.load(file)
@@ -66,7 +71,7 @@ def getRankings(teamID, year):
     teamData = yearData[yearData.TeamID == teamID]
     for ordinal in validOrdinals:
         data = teamData[teamData.SystemName == ordinal]
-        data = data[data.RankingDayNum == 133]
+        data = data[data.RankingDayNum == data.RankingDayNum.max()]
         out.append(int(data.OrdinalRank.tolist()[0]))
 
     return out
@@ -77,14 +82,25 @@ def getCoachStats(teamID, year):
     Get statistics for current coach from json files
     NOTE: These win stats are from total games ever, not before given year...
     '''
-    changes = coachCounts[str(teamID)][str(year)]
-    name = teamCoachByYear[str(teamID)][str(year)]
-    stats = coachStats[name]
-    experience = year - stats['start']
-    timeWithTeam = year - stats['teamStarts'][str(teamID)]
-    totalWins = stats['totalWins']
-    totalGames = stats['totalGames']
+    try:
+        changes = coachCounts[str(teamID)][str(year)]
+    except KeyError:
+        changes = 1
+
+    try:
+        name = teamCoachByYear[str(teamID)][str(year)]
+        stats = coachStats[name]
+        experience = year - stats['start']
+        timeWithTeam = year - stats['teamStarts'][str(teamID)]
+        totalWins = stats['totalWins']
+        totalGames = stats['totalGames']
+    except KeyError:
+        experience = 1
+        timeWithTeam = 1
+        totalWins = 30
+        totalGames = 55
     winPercent = totalWins / totalGames
+
     out = [changes, experience, timeWithTeam, totalWins, totalGames, winPercent]
 
     return out
@@ -144,7 +160,7 @@ def getStartYear(teamID):
     return value
 
 
-def getTrainingData(teamID, year, normalized=False):
+def getTrainingData(teamID, year):
     '''
     Should include:
         - seed ranking
