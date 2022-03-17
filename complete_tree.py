@@ -4,6 +4,7 @@ from torch.nn.functional import normalize
 import json
 import numpy as np
 import random
+from joblib import load
 
 from train_pytorch import Network
 from data_loader import getTrainingData
@@ -16,6 +17,7 @@ model = Network().to(device)
 model.load_state_dict(torch.load('trained_models/8000000_epochs_MSE_1e-8.pt', map_location=device))
 
 # Load sklearn model
+clf = load('trained_models/sklearn_10_1e-06.joblib')
 
 
 def getData(teamAID, teamBID, day):
@@ -38,7 +40,31 @@ def getData(teamAID, teamBID, day):
 
 
 def sklearnModel(teamAID, teamBID, day):
-    pass
+    one, two = getData(teamAID, teamBID, day)
+
+    oneResult = clf.predict(np.array(one).reshape(1, len(one)))[0]
+    twoResult = clf.predict(np.array(two).reshape(1, len(two)))[0]
+
+    print(oneResult)
+    print(twoResult)
+
+    aSeed = getSeed(teamAID, 2022)
+    bSeed = getSeed(teamBID, 2022)
+    if oneResult and not twoResult:
+        print(f'{getName(teamAID)} ({aSeed}) BEATS {getName(teamBID)} ({bSeed})')
+        return True
+
+    if not oneResult and twoResult:
+        print(f'{getName(teamBID)} ({bSeed}) BEATS {getName(teamAID)} ({aSeed})')
+        return False
+
+    print('THERE WAS A DISAGREEMENT')
+    if aSeed <= bSeed:
+        print(f'{getName(teamAID)} ({aSeed}) BEATS {getName(teamBID)} ({bSeed})')
+        return True
+    else:
+        print(f'{getName(teamBID)} ({bSeed}) BEATS {getName(teamAID)} ({aSeed})')
+        return False
 
 
 def pytorchModel(teamAID, teamBID, day, normalizeIns=True):
@@ -183,5 +209,6 @@ if __name__ == '__main__':
     # pytorchModel(1103, 1417, 136)
 
 
-    tree = buildTree(getPairings(), pytorchModel)
+    # tree = buildTree(getPairings(), pytorchModel)
+    tree = buildTree(getPairings(), sklearnModel)
     print(treeToString(tree))
