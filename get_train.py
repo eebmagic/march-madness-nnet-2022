@@ -92,5 +92,5 @@ if __name__ == '__main__':
     data = getFullData()
     with open('training_data.json', 'w') as file:
         json.dump(data, file)
-        print('WROTE TO FILE')
+        print('WROTE DATA TO FILE: training_data.json')
 

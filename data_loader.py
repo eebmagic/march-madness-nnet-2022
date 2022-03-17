@@ -172,8 +172,14 @@ def getTrainingData(teamID, year, normalized=False):
         # previousStats = getNormalizedRegularSeason(teamID, year-1)
         previousStats = getRegularSeason(teamID, year-1).tolist()
     else:
-        print(f'ADJUSTING')
+        print(f'ADJUSTING FOR FIRST YEAR')
         previousStats = np.zeros(len(regularStats)).tolist()
+
+    if startYear <= year - 2:
+        secondPreviousStats = getRegularSeason(teamID, year-2).tolist()
+    else:
+        print(f'ADJUSTING FOR SECOND YEAR')
+        secondPreviousStats = np.zeros(len(regularStats)).tolist()
 
     # print(seed)
     # print(rankings)
@@ -186,7 +192,7 @@ def getTrainingData(teamID, year, normalized=False):
     # print(type(regularStats))
     # print(type(previousStats))
 
-    out = seed + rankings + currCoachStats + regularStats + previousStats
+    out = seed + rankings + currCoachStats + regularStats + previousStats + secondPreviousStats
     return out
 
 

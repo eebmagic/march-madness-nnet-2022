@@ -1,5 +1,6 @@
 import torch
 from torch import nn
+from tqdm import tqdm
 from sklearn.model_selection import train_test_split
 import numpy as np
 import json
@@ -21,6 +22,7 @@ with open('training_data.json') as file:
     y = [1.0 if val else 0.0 for val in y]
     permutation = np.random.permutation(len(X))
     X = torch.tensor(X).to(device)
+    X = nn.functional.normalize(X)
     y = torch.tensor(y).to(device)
     y = torch.reshape(y, (y.size()[0], 1))
     X = X[permutation]
@@ -68,12 +70,12 @@ class Network(nn.Module):
 model = Network().to(device)
 
 loss_fn = torch.nn.MSELoss(reduction='sum')
-learning_rate = 1e-8
+learning_rate = 1e-6
 optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=0.9)
 
 losses = []
-epochs = 600_000
-for t in range(epochs):
+epochs = 800_000
+for t in tqdm(range(epochs)):
     # print(f'Running iter {t} ...')
 
     optimizer.zero_grad()
@@ -94,6 +96,8 @@ y_test = y_test.type(torch.int64)
 # print(y_test[:10])
 acc = testAcc(y_pred, y_test)
 print(f'{acc} of {y_pred.size()[0]} = {acc / y_pred.size()[0]}')
+
+torch.save(model.state_dict(), 'trained_models/8000000_epochs_MSE_1e-8.pt')
 
 # print(model.parameters)
 with open('losses.json', 'w') as file:
