@@ -45,6 +45,10 @@ class Network(nn.Module):
         super().__init__()
         
         # Inputs to hidden layer linear transformation
+        print(f'Making Network with vars:')
+        print(f'\t{featureSize=}')
+        print(f'\t{hiddenLayerCount=}')
+        print(f'\t{outFeatureSize=}')
         self.hidden = nn.Linear(featureSize, hiddenLayerCount)
         # Output layer, 10 units - one for each digit
         self.output = nn.Linear(hiddenLayerCount, outFeatureSize)
@@ -62,44 +66,41 @@ class Network(nn.Module):
         
         return x
 
-# p = torch.tensor([1, 2, 3])
-# xx = X_train.unsqueeze(-1).pow(p)
-# print(xx)
 
-# model = torch.nn.Linear(featureSize, outFeatureSize)
-model = Network().to(device)
+if __name__ == '__main__':
+    model = Network().to(device)
 
-loss_fn = torch.nn.MSELoss(reduction='sum')
-learning_rate = 1e-6
-optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=0.9)
+    loss_fn = torch.nn.MSELoss(reduction='sum')
+    learning_rate = 1e-6
+    optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=0.9)
 
-losses = []
-epochs = 800_000
-for t in tqdm(range(epochs)):
-    # print(f'Running iter {t} ...')
+    losses = []
+    epochs = 800_000
+    for t in tqdm(range(epochs)):
+        # print(f'Running iter {t} ...')
 
-    optimizer.zero_grad()
-    y_pred = model(X_train)
-    # print(y_pred)
-    loss = loss_fn(y_pred, y_train)
-    # print(t, loss.item())
-    if t % 100 == 0:
-        print(f'{t/epochs:.4f}', t, loss.item())
-        losses.append(loss.item())
-    loss.backward()
-    optimizer.step()
+        optimizer.zero_grad()
+        y_pred = model(X_train)
+        # print(y_pred)
+        loss = loss_fn(y_pred, y_train)
+        # print(t, loss.item())
+        if t % 100 == 0:
+            print(f'{t/epochs:.4f}', t, loss.item())
+            losses.append(loss.item())
+        loss.backward()
+        optimizer.step()
 
-y_pred = model(X_test)
-y_pred = torch.round(y_pred).type(torch.int64)
-y_test = y_test.type(torch.int64)
-# print(y_pred[:10])
-# print(y_test[:10])
-acc = testAcc(y_pred, y_test)
-print(f'{acc} of {y_pred.size()[0]} = {acc / y_pred.size()[0]}')
+    y_pred = model(X_test)
+    y_pred = torch.round(y_pred).type(torch.int64)
+    y_test = y_test.type(torch.int64)
+    # print(y_pred[:10])
+    # print(y_test[:10])
+    acc = testAcc(y_pred, y_test)
+    print(f'{acc} of {y_pred.size()[0]} = {acc / y_pred.size()[0]}')
 
-torch.save(model.state_dict(), f'trained_models/{epochs}_epochs_MSE_{str(learning_rate)}.pt')
+    torch.save(model.state_dict(), f'trained_models/{epochs}_epochs_MSE_{str(learning_rate)}.pt')
 
-# print(model.parameters)
-with open('losses.json', 'w') as file:
-    json.dump(losses, file)
-    print(f'WROTE TO FILE')
+    # print(model.parameters)
+    with open('losses.json', 'w') as file:
+        json.dump(losses, file)
+        print(f'WROTE TO FILE')
