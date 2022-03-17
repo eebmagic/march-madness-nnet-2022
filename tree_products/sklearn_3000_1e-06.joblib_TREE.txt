@@ -1,0 +1,75 @@
+
+LAYER 0:
+	TX Southern vs Kansas => Kansas
+	Creighton vs San Diego St => San Diego St
+	South Dakota vs Providence => Providence
+	Richmond vs Iowa => Iowa
+	Jacksonville St vs Auburn => Auburn
+	Miami FL vs USC => USC
+	Iowa St vs LSU => LSU
+	Colgate vs Wisconsin => Wisconsin
+	Wright St vs Arizona => Arizona
+	TCU vs Seton Hall => Seton Hall
+	Chattanooga vs Illinois => Illinois
+	UAB vs Houston => Houston
+	Michigan vs Colorado St => Michigan
+	Longwood vs Tennessee => Tennessee
+	Loyola MD vs Ohio St => Ohio St
+	Delaware vs Villanova => Villanova
+	Indiana vs St Mary's CA => St Mary's CA
+	Akron vs UCLA => UCLA
+	Norfolk St vs Baylor => Baylor
+	Marquette vs North Carolina => North Carolina
+	St Peter's vs Kentucky => Kentucky
+	San Francisco vs Murray St => San Francisco
+	Yale vs Purdue => Purdue
+	Virginia Tech vs Texas => Texas
+	Notre Dame vs Alabama => Alabama
+	Montana St vs Texas Tech => Texas Tech
+	CS Fullerton vs Duke => Duke
+	Davidson vs Michigan St => Michigan St
+	Memphis vs Boise St => Boise St
+	Georgia St vs Gonzaga => Gonzaga
+	New Mexico St vs Connecticut => Connecticut
+	Vermont vs Arkansas => Arkansas
+
+LAYER 1:
+	Kansas vs San Diego St => Kansas
+	Providence vs Iowa => Iowa
+	Auburn vs USC => Auburn
+	LSU vs Wisconsin => Wisconsin
+	Arizona vs Seton Hall => Arizona
+	Illinois vs Houston => Illinois
+	Michigan vs Tennessee => Tennessee
+	Ohio St vs Villanova => Villanova
+	St Mary's CA vs UCLA => UCLA
+	Baylor vs North Carolina => Baylor
+	Kentucky vs San Francisco => Kentucky
+	Purdue vs Texas => Texas
+	Alabama vs Texas Tech => Texas Tech
+	Duke vs Michigan St => Duke
+	Boise St vs Gonzaga => Gonzaga
+	Connecticut vs Arkansas => Arkansas
+
+LAYER 2:
+	Kansas vs Iowa => Kansas
+	Auburn vs Wisconsin => Wisconsin
+	Arizona vs Illinois => Arizona
+	Tennessee vs Villanova => Villanova
+	UCLA vs Baylor => Baylor
+	Kentucky vs Texas => Kentucky
+	Texas Tech vs Duke => Duke
+	Gonzaga vs Arkansas => Gonzaga
+
+LAYER 3:
+	Kansas vs Wisconsin => Wisconsin
+	Arizona vs Villanova => Arizona
+	Baylor vs Kentucky => Baylor
+	Duke vs Gonzaga => Gonzaga
+
+LAYER 4:
+	Wisconsin vs Arizona => Arizona
+	Baylor vs Gonzaga => Gonzaga
+
+LAYER 5:
+	Arizona vs Gonzaga => Arizona

@@ -11,13 +11,17 @@ from data_loader import getTrainingData
 from data_loader import getSeed
 from build_yearly_tourney_ids import getName
 
+VERBOSE = False
+
 # Load pytorch model
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = Network().to(device)
-model.load_state_dict(torch.load('trained_models/8000000_epochs_MSE_1e-8.pt', map_location=device))
+pytorchModelFile = 'trained_models/1600000_epochs_MSE_1e-06.pt'
+model.load_state_dict(torch.load(pytorchModelFile, map_location=device))
 
 # Load sklearn model
-clf = load('trained_models/sklearn_3000_1e-06.joblib')
+sklearnModelFile = 'trained_models/sklearn_3000_1e-06.joblib'
+clf = load(sklearnModelFile)
 
 
 def getData(teamAID, teamBID, day):
@@ -45,25 +49,31 @@ def sklearnModel(teamAID, teamBID, day):
     oneResult = clf.predict(np.array(one).reshape(1, len(one)))[0]
     twoResult = clf.predict(np.array(two).reshape(1, len(two)))[0]
 
-    print(oneResult)
-    print(twoResult)
+    if VERBOSE:
+        print(oneResult)
+        print(twoResult)
 
     aSeed = getSeed(teamAID, 2022)
     bSeed = getSeed(teamBID, 2022)
     if oneResult and not twoResult:
-        print(f'{getName(teamAID)} ({aSeed}) BEATS {getName(teamBID)} ({bSeed})')
+        if VERBOSE:
+            print(f'{getName(teamAID)} ({aSeed}) BEATS {getName(teamBID)} ({bSeed})')
         return True
 
     if not oneResult and twoResult:
-        print(f'{getName(teamBID)} ({bSeed}) BEATS {getName(teamAID)} ({aSeed})')
+        if VERBOSE:
+            print(f'{getName(teamBID)} ({bSeed}) BEATS {getName(teamAID)} ({aSeed})')
         return False
 
-    print('THERE WAS A DISAGREEMENT')
+    if VERBOSE:
+        print('THERE WAS A DISAGREEMENT')
     if aSeed <= bSeed:
-        print(f'{getName(teamAID)} ({aSeed}) BEATS {getName(teamBID)} ({bSeed})')
+        if VERBOSE:
+            print(f'{getName(teamAID)} ({aSeed}) BEATS {getName(teamBID)} ({bSeed})')
         return True
     else:
-        print(f'{getName(teamBID)} ({bSeed}) BEATS {getName(teamAID)} ({aSeed})')
+        if VERBOSE:
+            print(f'{getName(teamBID)} ({bSeed}) BEATS {getName(teamAID)} ({aSeed})')
         return False
 
 
@@ -82,32 +92,39 @@ def pytorchModel(teamAID, teamBID, day, normalizeIns=True):
         oneTensor = normalize(oneTensor)
         twoTensor = normalize(twoTensor)
 
-    print(oneTensor)
-    print(twoTensor)
 
     oneResult = int(model(oneTensor).round().item())
     twoResult = int(model(twoTensor).round().item())
     oneResult = int(model(oneTensor).round().item())
     twoResult = int(model(twoTensor).round().item())
-    print(oneResult)
-    print(twoResult)
+
+    if VERBOSE:
+        print(oneTensor)
+        print(twoTensor)
+        print(oneResult)
+        print(twoResult)
 
     aSeed = getSeed(teamAID, 2022)
     bSeed = getSeed(teamBID, 2022)
     if oneResult == 1 and twoResult == 0:
-        print(f'{getName(teamAID)} ({aSeed}) BEATS {getName(teamBID)} ({bSeed})')
+        if VERBOSE:
+            print(f'{getName(teamAID)} ({aSeed}) BEATS {getName(teamBID)} ({bSeed})')
         return True
 
     if oneResult == 0 and twoResult == 1:
-        print(f'{getName(teamBID)} ({bSeed}) BEATS {getName(teamAID)} ({aSeed})')
+        if VERBOSE:
+            print(f'{getName(teamBID)} ({bSeed}) BEATS {getName(teamAID)} ({aSeed})')
         return False
 
-    print('THERE WAS A DISAGREEMENT')
+    if VERBOSE:
+        print('THERE WAS A DISAGREEMENT')
     if aSeed <= bSeed:
-        print(f'{getName(teamAID)} ({aSeed}) BEATS {getName(teamBID)} ({bSeed})')
+        if VERBOSE:
+            print(f'{getName(teamAID)} ({aSeed}) BEATS {getName(teamBID)} ({bSeed})')
         return True
     else:
-        print(f'{getName(teamBID)} ({bSeed}) BEATS {getName(teamAID)} ({aSeed})')
+        if VERBOSE:
+            print(f'{getName(teamBID)} ({bSeed}) BEATS {getName(teamAID)} ({aSeed})')
         return False
 
 
@@ -142,7 +159,9 @@ def buildTree(pairings, func):
     total = len(pairings)
     tree = [pairings]
     layer = 0
+    print(f'Building tree')
     while layer <= 5:
+        print(f'\tlayer: {layer} ...')
         nextLayer = []
         for i, (teamA, teamB, days) in enumerate(tree[-1]):
             wins = func(teamA, teamB, days[layer])
@@ -186,7 +205,7 @@ def treeToString(tree):
                 winner = tree[layer+1][i//2][1]
             winner = getName(winner)
 
-            out += f'{teamA} vs {teamB} => {winner}\n'
+            out += f'\t{teamA} vs {teamB} => {winner}\n'
 
         layer += 1
     return out
@@ -209,6 +228,10 @@ if __name__ == '__main__':
     # pytorchModel(1103, 1417, 136)
 
 
-    # tree = buildTree(getPairings(), pytorchModel)
-    tree = buildTree(getPairings(), sklearnModel)
-    print(treeToString(tree))
+    pytorchTree = buildTree(getPairings(), pytorchModel)
+    with open(f'tree_products/{pytorchModelFile.split("/")[-1]}_TREE.txt', 'w') as file:
+        file.write(treeToString(pytorchTree))
+
+    sklearnTree = buildTree(getPairings(), sklearnModel)
+    with open(f'tree_products/{sklearnModelFile.split("/")[-1]}_TREE.txt', 'w') as file:
+        file.write(treeToString(sklearnTree))
