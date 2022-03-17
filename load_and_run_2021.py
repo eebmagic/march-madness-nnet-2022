@@ -12,7 +12,8 @@ model = Network().to(device)
 print(model.parameters)
 
 # model.load_state_dict(torch.load('trained_models/8_epochs_MSE_1e-8.pt', map_location=device))
-model.load_state_dict(torch.load('trained_models/8000000_epochs_MSE_1e-8.pt', map_location=device))
+# model.load_state_dict(torch.load('trained_models/8000000_epochs_MSE_1e-8.pt', map_location=device))
+model.load_state_dict(torch.load('trained_models/1600000_epochs_MSE_1e-06.pt', map_location=device))
 
 # print(dir(model.hidden))
 # print(model.hidden.weight.size())

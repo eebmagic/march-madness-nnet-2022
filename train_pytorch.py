@@ -75,7 +75,7 @@ if __name__ == '__main__':
     optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=0.9)
 
     losses = []
-    epochs = 800_000
+    epochs = 1_600_000
     for t in tqdm(range(epochs)):
         # print(f'Running iter {t} ...')
 
