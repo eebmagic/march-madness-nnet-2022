@@ -97,7 +97,7 @@ y_test = y_test.type(torch.int64)
 acc = testAcc(y_pred, y_test)
 print(f'{acc} of {y_pred.size()[0]} = {acc / y_pred.size()[0]}')
 
-torch.save(model.state_dict(), 'trained_models/8000000_epochs_MSE_1e-8.pt')
+torch.save(model.state_dict(), f'trained_models/{epochs}_epochs_MSE_{str(learning_rate)}.pt')
 
 # print(model.parameters)
 with open('losses.json', 'w') as file:
